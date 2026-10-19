@@ -1,0 +1,58 @@
+{
+  "schema": "nearest_reachable_projected_point_balanced_position_v3",
+  "point_weight": 1,
+  "sample_count": 8128,
+  "original_bounds_xyz_mm": [
+    [
+      -42.0,
+      -2.0,
+      0.0
+    ],
+    [
+      42.0,
+      2.0,
+      2.0
+    ]
+  ],
+  "placed_bounds_xyz_mm": [
+    [
+      -42.0,
+      27.296875,
+      0.0
+    ],
+    [
+      42.0,
+      31.296875,
+      2.0
+    ]
+  ],
+  "grid_spacing_mm": [
+    1.3125,
+    0.0625,
+    1.0
+  ],
+  "translation_xyz_mm": [
+    0.0,
+    29.296875,
+    0.0
+  ],
+  "initial_owner": "nearest_reachable_robot",
+  "projection_plane": "XY",
+  "projected_unique_points": 4064,
+  "projection_preserves_z_multiplicity": true,
+  "robot_point_counts": [
+    2824,
+    2824,
+    2480
+  ],
+  "robot_point_shares": [
+    0.34744094488188976,
+    0.34744094488188976,
+    0.3051181102362205
+  ],
+  "feasible_candidate_count": 161,
+  "workspace_fits": true,
+  "all_points_reachable": true,
+  "objective": "Minimize equal-point share imbalance in XY projection using nearest reachable ownership; travel breaks ties.",
+  "note": "One translation for every layer. Layer priority affects handoffs, not initial nearest ownership. Grid search is approximate."
+}

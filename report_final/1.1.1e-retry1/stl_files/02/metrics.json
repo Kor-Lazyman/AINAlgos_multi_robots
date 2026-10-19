@@ -1,0 +1,47 @@
+{
+  "version": "1.1.1.e-retry1",
+  "split": "train",
+  "job": "02",
+  "model_timesteps": 2560,
+  "policy_sha256": "5a8e8483d5bd1a51e2f797e4b6cdfd420c629577942a37dbb02a079179f4c00c",
+  "checkpoint_sha256": "b05bf1a896cb2f9116d2c15714dbc975a7f117893bf1a2daf701d4b3a0beb394",
+  "code_sha256": "79e8575b98aa1c158ad230beeba62d052d32eeb1095c68de07ee90875d8fd839",
+  "target_sha256": "1262d0f4ca60a7b0920afc80e9ca77a88f45c356d96b120e4df05787e3582962",
+  "config_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7",
+  "cache_key": "68053f7ec409838bb0d309b2173763ec0f3d1a362530f7990b667275ea2f744e",
+  "cache_hit": false,
+  "status": "complete",
+  "makespan_s": 5993.737428431507,
+  "reward": -5993.737428431507,
+  "computation_s": 42.67712130001746,
+  "layers": 8,
+  "robots": [
+    {
+      "deposition_s": 562.7890385351589,
+      "travel_s": 297.819000558383,
+      "wait_s": 5133.129389337965,
+      "utilization": 0.14358454125988518,
+      "deposition_utilization": 0.09389617834534242
+    },
+    {
+      "deposition_s": 3436.485932097482,
+      "travel_s": 1818.4606210312627,
+      "wait_s": 738.7908753027627,
+      "utilization": 0.8767395328667081,
+      "deposition_utilization": 0.5733460921722043
+    },
+    {
+      "deposition_s": 0,
+      "travel_s": 0,
+      "wait_s": 5993.737428431507,
+      "utilization": 0.0,
+      "deposition_utilization": 0.0
+    }
+  ],
+  "collision_certified": true,
+  "validator_status": "PASS",
+  "artifact_dir": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\output\\train_e_retry1_40updates_20261019\\final_stl\\02",
+  "validator_wall_s": 3.5181062999763526,
+  "collision_events": 0,
+  "iou": 0.9803288628490796
+}

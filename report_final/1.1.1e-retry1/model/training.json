@@ -1,0 +1,152 @@
+{
+  "version": "1.1.1.e-retry1",
+  "status": "complete",
+  "arguments": {
+    "mode": "train",
+    "train_dir": "train",
+    "validation_dir": "validation",
+    "input": null,
+    "checkpoint": null,
+    "output": "output\\train_e_retry1_40updates_20261019",
+    "updates": 40,
+    "n_steps": 64,
+    "batch_size": 32,
+    "epochs": 10,
+    "eval_every": 4,
+    "save_every": 4,
+    "device": "cuda",
+    "seed": 42,
+    "tensorboard": true,
+    "official_validator": true
+  },
+  "train_jobs": [
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\train\\01",
+      "target_sha256": "c82bfb68b3ee385230db769eab62236205de560ed85abe3ddf3a09d910e4e146",
+      "config_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    },
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\train\\02",
+      "target_sha256": "1262d0f4ca60a7b0920afc80e9ca77a88f45c356d96b120e4df05787e3582962",
+      "config_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    },
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\train\\03",
+      "target_sha256": "f5d5dcd1b9126f4a9b104f7913487ab47dc5304b9337a19d0bac284c02326769",
+      "config_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    },
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\train\\04",
+      "target_sha256": "dc8ec2acec88920ae367ea4dc43bca71c65e0a2e7f2b00dc6efd2eca4742e56c",
+      "config_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    },
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\train\\05",
+      "target_sha256": "c7ef0f6330b2da30cc1671f5e91471074fb1e6ca7e40027193380d6ef7ccad41",
+      "config_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    },
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\train\\06",
+      "target_sha256": "0b56e06778553992d12fb47031fff6dc12735d79bdcb49c39a7bb5c96eef12f1",
+      "config_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    }
+  ],
+  "validation_jobs": [
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\validation\\00_sample",
+      "target_sha256": "fc5bb5ca0ef7ecdeb8499b69f077c66d7564575e036aa903e53f62c7a66eb451",
+      "config_sha256": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e"
+    },
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\validation\\01_rectangle",
+      "target_sha256": "4a8a4d87de9784e9798a9266c732305af9c2e77e16f9bca135db64e457747767",
+      "config_sha256": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e"
+    },
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\validation\\02_triangle",
+      "target_sha256": "a20b5c1847e959708e39e007a34c230a4e6f7d177d1d810940a4f90e78acf47c",
+      "config_sha256": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e"
+    },
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\validation\\03_l_shape",
+      "target_sha256": "4a682b69182429ced581923e0add2e8e9e2f495a6c722cdf9cd573a6a36bee9b",
+      "config_sha256": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e"
+    },
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\validation\\04_cross",
+      "target_sha256": "c721ca7b21a64464540d8c40b31dec972ab5c0089b2d6704b60ba29a8034ffc5",
+      "config_sha256": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e"
+    },
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\validation\\05_ring",
+      "target_sha256": "e12c3b0b666933e349a9724dc5bcb2f051e8b46c925a8fc7c248c80f438c8d2d",
+      "config_sha256": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e"
+    },
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\validation\\06_priority_plate",
+      "target_sha256": "721afaa92a85018a7f7d818ec1e968129dc82013fdf4ccf68959b5e99a709d50",
+      "config_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    },
+    {
+      "job": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\validation\\07_priority_ring",
+      "target_sha256": "945baf0b6c4795fa4c2496c159ff84d05331042e25d74147c423f1fa4d435de0",
+      "config_sha256": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+    }
+  ],
+  "reward": "r_layer = -layer_duration_seconds; episode_return = -makespan_seconds",
+  "gamma": 1.0,
+  "gae_lambda": 0.95,
+  "learning_rate": 0.0003,
+  "early_stopping": false,
+  "validator_used_in_reward": false,
+  "checkpoint_selection": "mean_validation_makespan_s",
+  "requested_timesteps": 2560,
+  "final_csv_files": [
+    "final_validation.csv",
+    "final_stl.csv",
+    "final_results.csv"
+  ],
+  "action_nvec": [
+    8,
+    33,
+    33,
+    2,
+    33,
+    33,
+    2,
+    33,
+    33,
+    2,
+    6
+  ],
+  "action_description": {
+    "hatch_angle": "8 angles, 22.5 degree increments",
+    "robot_start_xy": "Each robot selects x,y in a 33x33 layer-bounds grid; projected to nearest owned deposition segment",
+    "robot_direction": "Each robot selects CCW/CW sweep from its selected deposition point",
+    "layer_priority": "Action selects one of 6 robot priority permutations for this layer"
+  },
+  "policy": "MlpPolicy",
+  "network": {
+    "pi": [
+      128,
+      128
+    ],
+    "vf": [
+      128,
+      128
+    ]
+  },
+  "geometry_device": "cpu",
+  "policy_device": "cuda",
+  "initialization": "fresh random policy/value weights; no checkpoint loaded",
+  "baseline_mean_makespan_s": 2319.2107545400977,
+  "best_mean_makespan_s": 1694.7452214677824,
+  "actual_timesteps": 2560,
+  "completed_updates": 40,
+  "best_step": 1792,
+  "wall_s": 6594.895976200001,
+  "estimated_remaining_s": 0.0,
+  "latest_validation_mean_makespan_s": 2035.5229566352675,
+  "final_validation_completed": 8,
+  "final_stl_completed": 6
+}

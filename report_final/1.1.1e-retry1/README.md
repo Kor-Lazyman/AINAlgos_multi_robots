@@ -1,0 +1,1 @@
+40-update retry1 final checkpoint. WAAM Validator Gantt images are Edge captures of the bundled Validator dashboard build_gantt_figure using each PASS evaluation trajectory. Computation time is measured per STL by the evaluation runner, separate from the complete training wall time.

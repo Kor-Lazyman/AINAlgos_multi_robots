@@ -1,0 +1,5365 @@
+[
+  {
+    "action": [
+      3,
+      12,
+      16,
+      0,
+      4,
+      13,
+      0,
+      23,
+      4,
+      0,
+      2
+    ],
+    "version": "1.1.1.e-retry1",
+    "environment": "projected_xy_start_coordinate_retry_before_handoff_v2",
+    "completed_layers": 1,
+    "total_layers": 1,
+    "schedule_complete": true,
+    "makespan_s": 356.782077086122,
+    "layer_index": 0,
+    "layer_duration_s": 356.782077086122,
+    "reward": -356.782077086122,
+    "robot_segment_counts": [
+      0,
+      281,
+      0
+    ],
+    "robot_utilization": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "robot_deposition_utilization": [
+      0.0,
+      0.7884419603209204,
+      0.0
+    ],
+    "robot_wait_s": [
+      356.782077086122,
+      0,
+      356.782077086122
+    ],
+    "mean_robot_utilization": 0.3333333333333333,
+    "starting_points": [
+      {
+        "start_xy": [
+          -20.9353012543229,
+          21.62633613067943
+        ],
+        "requested_start_xy": [
+          -13.0,
+          21.4844
+        ],
+        "start_xy_action": [
+          12,
+          16
+        ],
+        "start_region": "nearest_owned_segment",
+        "chosen_segment": 40,
+        "direction": "CCW",
+        "actual_first_deposition_xyz": null
+      },
+      {
+        "start_xy": [
+          0.0,
+          0.5464769743815083
+        ],
+        "requested_start_xy": [
+          -39.0,
+          11.7344
+        ],
+        "start_xy_action": [
+          4,
+          13
+        ],
+        "start_region": "nearest_owned_segment",
+        "chosen_segment": 0,
+        "direction": "CCW",
+        "actual_first_deposition_xyz": [
+          0.0,
+          0.5464769601821899,
+          2.0
+        ]
+      },
+      {
+        "start_xy": [
+          17.988280424709224,
+          32.215711347060676
+        ],
+        "requested_start_xy": [
+          22.75,
+          -17.5156
+        ],
+        "start_xy_action": [
+          23,
+          4
+        ],
+        "start_region": "nearest_owned_segment",
+        "chosen_segment": 0,
+        "direction": "CCW",
+        "actual_first_deposition_xyz": null
+      }
+    ],
+    "layer_priority": [
+      2,
+      1,
+      3
+    ],
+    "ownership": {
+      "owned_fraction": [
+        0.3375963983622832,
+        0.3375963983622832,
+        0.32480720327543416
+      ],
+      "triple_fraction": 1.0,
+      "r2_r3_start_fraction": 1.0
+    },
+    "collision_certified": true,
+    "guard_protocol_certified": true,
+    "proximity_guard_factor": 1.0,
+    "collision_margin_mm": 0.001,
+    "home_wait_fallbacks": 0,
+    "local_wait_repairs": 0,
+    "priority_wait_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "primary_makespan_s": 125.47841847897597,
+    "deferred_queue_wait_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "handoff_count": 189,
+    "scheduler_strategy": "owned_work_retry_before_handoff_v1",
+    "initially_blocked_count": 189,
+    "retry_check_count": 0,
+    "retry_passes": [
+      0,
+      0,
+      0
+    ],
+    "recovered_own_task_counts": [
+      0,
+      0,
+      0
+    ],
+    "recovered_own_task_count": 0,
+    "deferred_count": 189,
+    "retained_original_count": 0,
+    "required_deposition_length_mm": 2250.415682121215,
+    "executed_deposition_length_mm": 2250.415682121216,
+    "coverage_tasks_complete": true,
+    "task_count": 281,
+    "primary_task_counts": [
+      0,
+      92,
+      0
+    ],
+    "final_task_counts": [
+      0,
+      281,
+      0
+    ],
+    "handoffs": [
+      {
+        "task_id": "0:0",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.039026065969175,
+        "segment_start": [
+          -20.935300827026367,
+          21.6263370513916,
+          2.0
+        ],
+        "segment_end": [
+          -20.949535369873047,
+          20.830541610717773,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:1",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.098082575734235,
+        "segment_start": [
+          -31.18163299560547,
+          39.545352935791016,
+          2.0
+        ],
+        "segment_end": [
+          -46.40838623046875,
+          2.7847163677215576,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:2",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.117438875037655,
+        "segment_start": [
+          -49.93263244628906,
+          18.21162986755371,
+          2.0
+        ],
+        "segment_end": [
+          -50.039737701416016,
+          21.484399795532227,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:3",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.037919027712771,
+        "segment_start": [
+          -20.949535369873047,
+          20.830541610717773,
+          2.0
+        ],
+        "segment_end": [
+          -20.78467559814453,
+          18.780550003051758,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:4",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.112883977651641,
+        "segment_start": [
+          -49.70524597167969,
+          15.766229629516602,
+          2.0
+        ],
+        "segment_end": [
+          -49.93263244628906,
+          18.21162986755371,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:5",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.072321155341921,
+        "segment_start": [
+          -44.3717041015625,
+          -1.6358095407485962,
+          2.0
+        ],
+        "segment_end": [
+          -28.037445068359375,
+          37.798580169677734,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:6",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.112883977651641,
+        "segment_start": [
+          -49.70524597167969,
+          15.766229629516602,
+          2.0
+        ],
+        "segment_end": [
+          -49.37142562866211,
+          13.333168029785156,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:7",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.04090292246304,
+        "segment_start": [
+          -29.72694206237793,
+          5.707254886627197,
+          2.0
+        ],
+        "segment_end": [
+          -19.797269821166992,
+          29.679601669311523,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:8",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.059981894639673,
+        "segment_start": [
+          -23.102540969848633,
+          31.037477493286133,
+          2.0
+        ],
+        "segment_end": [
+          -34.750732421875,
+          2.9162604808807373,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:9",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.06166519797141,
+        "segment_start": [
+          -39.77452087402344,
+          0.12526650726795197,
+          2.0
+        ],
+        "segment_end": [
+          -26.398090362548828,
+          32.418827056884766,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:10",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.03441160293205,
+        "segment_start": [
+          -20.78467559814453,
+          18.780550003051758,
+          2.0
+        ],
+        "segment_end": [
+          -20.419572830200195,
+          16.756338119506836,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:11",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.101357741024993,
+        "segment_start": [
+          -48.73253631591797,
+          10.121490478515625,
+          2.0
+        ],
+        "segment_end": [
+          -49.37142562866211,
+          13.333168029785156,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:12",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.101357741024993,
+        "segment_start": [
+          -48.73253631591797,
+          10.121490478515625,
+          2.0
+        ],
+        "segment_end": [
+          -48.33464813232422,
+          8.533209800720215,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:13",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.030493794382032,
+        "segment_start": [
+          -20.419572830200195,
+          16.756338119506836,
+          2.0
+        ],
+        "segment_end": [
+          -19.85775375366211,
+          14.777466773986816,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:14",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.090559970171077,
+        "segment_start": [
+          -47.3841667175293,
+          5.3996100425720215,
+          2.0
+        ],
+        "segment_end": [
+          -48.33464813232422,
+          8.533209800720215,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:15",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.090559970171077,
+        "segment_start": [
+          -47.3841667175293,
+          5.3996100425720215,
+          2.0
+        ],
+        "segment_end": [
+          -46.83247756958008,
+          3.8579013347625732,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:16",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.030761105172244,
+        "segment_start": [
+          -24.703149795532227,
+          8.498250007629395,
+          2.0
+        ],
+        "segment_end": [
+          -20.681354522705078,
+          18.207721710205078,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:17",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.02604579520191,
+        "segment_start": [
+          -19.85775375366211,
+          14.777466773986816,
+          2.0
+        ],
+        "segment_end": [
+          -19.10464859008789,
+          12.863218307495117,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:18",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.082955076009839,
+        "segment_start": [
+          -46.23065185546875,
+          2.334958553314209,
+          2.0
+        ],
+        "segment_end": [
+          -46.83247756958008,
+          3.8579013347625732,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:19",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.082955076009839,
+        "segment_start": [
+          -46.23065185546875,
+          2.334958553314209,
+          2.0
+        ],
+        "segment_end": [
+          -44.87934494018555,
+          -0.6474969983100891,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:20",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.021327447096567,
+        "segment_start": [
+          -19.10464859008789,
+          12.863218307495117,
+          2.0
+        ],
+        "segment_end": [
+          -18.60471534729004,
+          11.886269569396973,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:21",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.021136294167508,
+        "segment_start": [
+          -19.06195640563965,
+          12.779790878295898,
+          2.0
+        ],
+        "segment_end": [
+          -19.67936134338379,
+          11.289243698120117,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:22",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.071047995588088,
+        "segment_start": [
+          -44.13108444213867,
+          -2.1042656898498535,
+          2.0
+        ],
+        "segment_end": [
+          -44.87934494018555,
+          -0.6474969983100891,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:23",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.071047995588088,
+        "segment_start": [
+          -44.13108444213867,
+          -2.1042656898498535,
+          2.0
+        ],
+        "segment_end": [
+          -44.04768753051758,
+          -2.2487146854400635,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:24",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.0162774137878,
+        "segment_start": [
+          -18.167699813842773,
+          11.032272338867188,
+          2.0
+        ],
+        "segment_end": [
+          -18.60471534729004,
+          11.886269569396973,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:25",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.070561943055868,
+        "segment_start": [
+          -44.04768753051758,
+          -2.2487146854400635,
+          2.0
+        ],
+        "segment_end": [
+          -42.49382400512695,
+          -4.940074920654297,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:26",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.060925118834039,
+        "segment_start": [
+          -42.1103630065918,
+          -5.5139570236206055,
+          2.0
+        ],
+        "segment_end": [
+          -39.77452087402344,
+          0.12526650726795197,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:27",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.0162774137878,
+        "segment_start": [
+          -18.167699813842773,
+          11.032272338867188,
+          2.0
+        ],
+        "segment_end": [
+          -17.055755615234375,
+          9.301877975463867,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:28",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.05120477907552,
+        "segment_start": [
+          -34.750732421875,
+          2.9162604808807373,
+          2.0
+        ],
+        "segment_end": [
+          -39.68474578857422,
+          -8.995504379272461,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:29",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.054283990018847,
+        "segment_start": [
+          -40.67462158203125,
+          -7.662668228149414,
+          2.0
+        ],
+        "segment_end": [
+          -42.49382400512695,
+          -4.940074920654297,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:30",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.039197771977912,
+        "segment_start": [
+          -37.09772872924805,
+          -12.08739948272705,
+          2.0
+        ],
+        "segment_end": [
+          -29.72694206237793,
+          5.707254886627197,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:31",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.054283990018847,
+        "segment_start": [
+          -40.67462158203125,
+          -7.662668228149414,
+          2.0
+        ],
+        "segment_end": [
+          -39.69919967651367,
+          -8.97789478302002,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:32",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.010902184959058,
+        "segment_start": [
+          -17.055755615234375,
+          9.301877975463867,
+          2.0
+        ],
+        "segment_end": [
+          -15.779753684997559,
+          7.68900203704834,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:33",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.041300503247456,
+        "segment_start": [
+          -37.62187957763672,
+          -11.509126663208008,
+          2.0
+        ],
+        "segment_end": [
+          -39.69919967651367,
+          -8.97789478302002,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:34",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.028657216408753,
+        "segment_start": [
+          -34.37260055541992,
+          -14.845864295959473,
+          2.0
+        ],
+        "segment_end": [
+          -24.703149795532227,
+          8.498250007629395,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:35",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.041300503247456,
+        "segment_start": [
+          -37.62187957763672,
+          -11.509126663208008,
+          2.0
+        ],
+        "segment_end": [
+          -36.52219009399414,
+          -12.722363471984863,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:36",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.018372852570721,
+        "segment_start": [
+          -31.535511016845703,
+          -17.334035873413086,
+          2.0
+        ],
+        "segment_end": [
+          -19.67936134338379,
+          11.289243698120117,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:37",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.005353868111598,
+        "segment_start": [
+          -15.779753684997559,
+          7.68900203704834,
+          2.0
+        ],
+        "segment_end": [
+          -14.351661682128906,
+          6.208865165710449,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:38",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.0324235299459,
+        "segment_start": [
+          -35.383426666259766,
+          -13.899142265319824,
+          2.0
+        ],
+        "segment_end": [
+          -36.52219009399414,
+          -12.722363471984863,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:39",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.0324235299459,
+        "segment_start": [
+          -35.383426666259766,
+          -13.899142265319824,
+          2.0
+        ],
+        "segment_end": [
+          -32.993526458740234,
+          -16.137479782104492,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:40",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.999542351200773,
+        "segment_start": [
+          -14.351661682128906,
+          6.208865165710449,
+          2.0
+        ],
+        "segment_end": [
+          -12.784740447998047,
+          4.875288009643555,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:41",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.009653321428111,
+        "segment_start": [
+          -16.779481887817383,
+          8.952665328979492,
+          2.0
+        ],
+        "segment_end": [
+          -28.59208106994629,
+          -19.565475463867188,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:42",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.014557221184148,
+        "segment_start": [
+          -30.46229362487793,
+          -18.214797973632812,
+          2.0
+        ],
+        "segment_end": [
+          -32.993526458740234,
+          -16.137479782104492,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:43",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.014557221184148,
+        "segment_start": [
+          -30.46229362487793,
+          -18.214797973632812,
+          2.0
+        ],
+        "segment_end": [
+          -29.147024154663086,
+          -19.19028091430664,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:44",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.993679205854168,
+        "segment_start": [
+          -12.784740447998047,
+          4.875288009643555,
+          2.0
+        ],
+        "segment_end": [
+          -11.09550952911377,
+          3.702286958694458,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:45",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.003305931985562,
+        "segment_start": [
+          -27.11252784729004,
+          -20.565797805786133,
+          2.0
+        ],
+        "segment_end": [
+          -29.147024154663086,
+          -19.19028091430664,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:46",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.998162034601577,
+        "segment_start": [
+          -25.539060592651367,
+          -21.532337188720703,
+          2.0
+        ],
+        "segment_end": [
+          -14.12735366821289,
+          6.017960548400879,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:47",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.003305931985562,
+        "segment_start": [
+          -27.11252784729004,
+          -20.565797805786133,
+          2.0
+        ],
+        "segment_end": [
+          -25.0198917388916,
+          -21.85124969482422,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:48",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.987730128696027,
+        "segment_start": [
+          -11.09550952911377,
+          3.702286958694458,
+          2.0
+        ],
+        "segment_end": [
+          -9.298904418945312,
+          2.7002832889556885,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:49",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.989708505445627,
+        "segment_start": [
+          -22.860239028930664,
+          -23.020864486694336,
+          2.0
+        ],
+        "segment_end": [
+          -25.0198917388916,
+          -21.85124969482422,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:50",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.988247586558291,
+        "segment_start": [
+          -22.383872985839844,
+          -23.25255012512207,
+          2.0
+        ],
+        "segment_end": [
+          -11.19127082824707,
+          3.7687835693359375,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:51",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.989708505445627,
+        "segment_start": [
+          -22.860239028930664,
+          -23.020864486694336,
+          2.0
+        ],
+        "segment_end": [
+          -20.65174674987793,
+          -24.094987869262695,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:52",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.981735526336532,
+        "segment_start": [
+          -9.298904418945312,
+          2.7002832889556885,
+          2.0
+        ],
+        "segment_end": [
+          -7.412891387939453,
+          1.8792715072631836,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:53",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.978543387367441,
+        "segment_start": [
+          -19.149442672729492,
+          -24.74631118774414,
+          2.0
+        ],
+        "segment_end": [
+          -20.65174674987793,
+          -24.094987869262695,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:54",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.978504187682038,
+        "segment_start": [
+          -19.136850357055664,
+          -24.75105094909668,
+          2.0
+        ],
+        "segment_end": [
+          -8.000293731689453,
+          2.134977102279663,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:55",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.978543387367441,
+        "segment_start": [
+          -19.149442672729492,
+          -24.74631118774414,
+          2.0
+        ],
+        "segment_end": [
+          -16.08478546142578,
+          -25.899770736694336,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:56",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.975800721252543,
+        "segment_start": [
+          -7.412891387939453,
+          1.8792715072631836,
+          2.0
+        ],
+        "segment_end": [
+          -5.455470561981201,
+          1.2470465898513794,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:57",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.96084477021499,
+        "segment_start": [
+          -12.951190948486328,
+          -26.850345611572266,
+          2.0
+        ],
+        "segment_end": [
+          -16.08478546142578,
+          -25.899770736694336,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:58",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.968752844319653,
+        "segment_start": [
+          -15.782878875732422,
+          -25.99135398864746,
+          2.0
+        ],
+        "segment_end": [
+          -4.579313278198242,
+          1.0564457178115845,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:59",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.956502745613317,
+        "segment_start": [
+          -11.362933158874512,
+          -27.248130798339844,
+          2.0
+        ],
+        "segment_end": [
+          -12.951190948486328,
+          -26.850345611572266,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:60",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.969947863055216,
+        "segment_start": [
+          -5.455470561981201,
+          1.2470465898513794,
+          2.0
+        ],
+        "segment_end": [
+          -3.4455044269561768,
+          0.8097947835922241,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:61",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.952166210056998,
+        "segment_start": [
+          -9.762187004089355,
+          -27.593917846679688,
+          2.0
+        ],
+        "segment_end": [
+          -11.362933158874512,
+          -27.248130798339844,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:62",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.959169312135174,
+        "segment_start": [
+          -12.334897994995117,
+          -27.004697799682617,
+          2.0
+        ],
+        "segment_end": [
+          -0.916017472743988,
+          0.5629170536994934,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:63",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.94363271631272,
+        "segment_start": [
+          -6.531515598297119,
+          -28.127307891845703,
+          2.0
+        ],
+        "segment_end": [
+          -9.762187004089355,
+          -27.593917846679688,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:64",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.96419210720051,
+        "segment_start": [
+          -3.4455044269561768,
+          0.8097947835922241,
+          2.0
+        ],
+        "segment_end": [
+          -1.4028598070144653,
+          0.5716546177864075,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:65",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.947112405119242,
+        "segment_start": [
+          0.0,
+          -6.563128471374512,
+          2.0
+        ],
+        "segment_end": [
+          -8.778509140014648,
+          -27.756324768066406,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:66",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.94363271631272,
+        "segment_start": [
+          -6.531515598297119,
+          -28.127307891845703,
+          2.0
+        ],
+        "segment_end": [
+          -4.088676452636719,
+          -28.381359100341797,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:67",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.940058042368918,
+        "segment_start": [
+          -5.1250410079956055,
+          -28.273578643798828,
+          2.0
+        ],
+        "segment_end": [
+          0.0,
+          -15.900635719299316,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:68",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.931156326101188,
+        "segment_start": [
+          -1.6372261047363281,
+          -28.528587341308594,
+          2.0
+        ],
+        "segment_end": [
+          -4.088676452636719,
+          -28.381359100341797,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:69",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.958618309100636,
+        "segment_start": [
+          -1.4028598070144653,
+          0.5716546177864075,
+          2.0
+        ],
+        "segment_end": [
+          0.0,
+          0.5464769601821899,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:70",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.927144075283518,
+        "segment_start": [
+          0.0,
+          -28.528587341308594,
+          2.0
+        ],
+        "segment_end": [
+          -1.6372261047363281,
+          -28.528587341308594,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:71",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 8.93050654567394,
+        "segment_start": [
+          -1.3629462718963623,
+          -28.528587341308594,
+          2.0
+        ],
+        "segment_end": [
+          0.0,
+          -25.238143920898438,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:72",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.047285460574972,
+        "segment_start": [
+          -18.78386116027832,
+          30.783803939819336,
+          2.0
+        ],
+        "segment_end": [
+          -17.98590660095215,
+          32.214393615722656,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:73",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.147817414345628,
+        "segment_start": [
+          -43.420841217041016,
+          46.344913482666016,
+          2.0
+        ],
+        "segment_end": [
+          -44.87934494018555,
+          43.61629867553711,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:74",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.049627900928968,
+        "segment_start": [
+          -18.604887008666992,
+          32.55826950073242,
+          2.0
+        ],
+        "segment_end": [
+          -19.797269821166992,
+          29.679601669311523,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:75",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.059981894639673,
+        "segment_start": [
+          -23.102540969848633,
+          31.037477493286133,
+          2.0
+        ],
+        "segment_end": [
+          -21.749073028564453,
+          34.30503845214844,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:76",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.073526507947406,
+        "segment_start": [
+          -24.893259048461914,
+          36.05181121826172,
+          2.0
+        ],
+        "segment_end": [
+          -26.398090362548828,
+          32.418827056884766,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:77",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.14631933971306,
+        "segment_start": [
+          -45.579322814941406,
+          42.13618850708008,
+          2.0
+        ],
+        "segment_end": [
+          -44.87934494018555,
+          43.61629867553711,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:78",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.047285460574972,
+        "segment_start": [
+          -18.78386116027832,
+          30.783803939819336,
+          2.0
+        ],
+        "segment_end": [
+          -19.60512924194336,
+          28.897192001342773,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:79",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.144474512838709,
+        "segment_start": [
+          -46.83247756958008,
+          39.11089324951172,
+          2.0
+        ],
+        "segment_end": [
+          -45.579322814941406,
+          42.13618850708008,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:80",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.144474512838709,
+        "segment_start": [
+          -46.83247756958008,
+          39.11089324951172,
+          2.0
+        ],
+        "segment_end": [
+          -47.3841667175293,
+          37.569087982177734,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:81",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.046604602586456,
+        "segment_start": [
+          -19.60512924194336,
+          28.897192001342773,
+          2.0
+        ],
+        "segment_end": [
+          -20.237234115600586,
+          26.940187454223633,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:82",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.141957427788856,
+        "segment_start": [
+          -47.88505172729492,
+          36.0101432800293,
+          2.0
+        ],
+        "segment_end": [
+          -47.3841667175293,
+          37.569087982177734,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:83",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.141957427788856,
+        "segment_start": [
+          -47.88505172729492,
+          36.0101432800293,
+          2.0
+        ],
+        "segment_end": [
+          -48.7325325012207,
+          32.84723663330078,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:84",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.124035696239117,
+        "segment_start": [
+          -50.0237922668457,
+          22.068870544433594,
+          2.0
+        ],
+        "segment_end": [
+          -40.614192962646484,
+          44.78566360473633,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:85",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.045263104236334,
+        "segment_start": [
+          -20.237234115600586,
+          26.940187454223633,
+          2.0
+        ],
+        "segment_end": [
+          -20.674585342407227,
+          24.930015563964844,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:86",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.134986755546667,
+        "segment_start": [
+          -49.37142562866211,
+          29.63553237915039,
+          2.0
+        ],
+        "segment_end": [
+          -48.7325325012207,
+          32.84723663330078,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:87",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.12330654938843,
+        "segment_start": [
+          -37.47000503540039,
+          43.03889083862305,
+          2.0
+        ],
+        "segment_end": [
+          -49.47172164916992,
+          14.064181327819824,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:88",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.132875133401928,
+        "segment_start": [
+          -49.61161422729492,
+          28.01580238342285,
+          2.0
+        ],
+        "segment_end": [
+          -49.37142562866211,
+          29.63553237915039,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:89",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.04336201785835,
+        "segment_start": [
+          -20.674585342407227,
+          24.930015563964844,
+          2.0
+        ],
+        "segment_end": [
+          -20.912750244140625,
+          22.887107849121094,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:90",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.130644180919873,
+        "segment_start": [
+          -49.798770904541016,
+          26.38923454284668,
+          2.0
+        ],
+        "segment_end": [
+          -49.61161422729492,
+          28.01580238342285,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:91",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.096451051557324,
+        "segment_start": [
+          -48.148799896240234,
+          7.920491695404053,
+          2.0
+        ],
+        "segment_end": [
+          -34.3258171081543,
+          41.29212188720703,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:92",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.130644180919873,
+        "segment_start": [
+          -49.798770904541016,
+          26.38923454284668,
+          2.0
+        ],
+        "segment_end": [
+          -49.9727668762207,
+          23.939308166503906,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:93",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.12703368539638,
+        "segment_start": [
+          -49.9727668762207,
+          23.939308166503906,
+          2.0
+        ],
+        "segment_end": [
+          -50.039737701416016,
+          21.484399795532227,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "0:94",
+        "from_robot": 1,
+        "to_robot": 2,
+        "collision_time_s": 9.04089440741669,
+        "segment_start": [
+          -20.912750244140625,
+          22.887107849121094,
+          2.0
+        ],
+        "segment_end": [
+          -20.935300827026367,
+          21.6263370513916,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:0",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.086326133141537,
+        "segment_start": [
+          17.98828125,
+          32.2157096862793,
+          2.0
+        ],
+        "segment_end": [
+          17.055959701538086,
+          33.6666259765625,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:1",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.076367168900866,
+        "segment_start": [
+          35.58232498168945,
+          41.99018096923828,
+          2.0
+        ],
+        "segment_end": [
+          39.703792572021484,
+          51.94028091430664,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:2",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.089032256793596,
+        "segment_start": [
+          39.69919967651367,
+          51.946693420410156,
+          2.0
+        ],
+        "segment_end": [
+          41.60655212402344,
+          49.28486251831055,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:3",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.098229348796227,
+        "segment_start": [
+          37.11763381958008,
+          55.03424072265625,
+          2.0
+        ],
+        "segment_end": [
+          30.55854034423828,
+          39.199188232421875,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:4",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.090481529019492,
+        "segment_start": [
+          17.055959701538086,
+          33.6666259765625,
+          2.0
+        ],
+        "segment_end": [
+          15.779489517211914,
+          35.28001022338867,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:5",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.096563006588074,
+        "segment_start": [
+          37.62187957763672,
+          54.477928161621094,
+          2.0
+        ],
+        "segment_end": [
+          39.69919967651367,
+          51.946693420410156,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:6",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.10715360017753,
+        "segment_start": [
+          34.393463134765625,
+          57.79502487182617,
+          2.0
+        ],
+        "segment_end": [
+          25.534748077392578,
+          36.4081916809082,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:7",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.096563006588074,
+        "segment_start": [
+          37.62187957763672,
+          54.477928161621094,
+          2.0
+        ],
+        "segment_end": [
+          36.52219009399414,
+          55.691162109375,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:8",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.095470904336674,
+        "segment_start": [
+          15.779489517211914,
+          35.28001022338867,
+          2.0
+        ],
+        "segment_end": [
+          14.351661682128906,
+          36.75993347167969,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:9",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.104069649445291,
+        "segment_start": [
+          35.38348388671875,
+          56.8677864074707,
+          2.0
+        ],
+        "segment_end": [
+          36.52219009399414,
+          55.691162109375,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:10",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.11580484254149,
+        "segment_start": [
+          31.557140350341797,
+          60.28504180908203,
+          2.0
+        ],
+        "segment_end": [
+          20.510957717895508,
+          33.6171989440918,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:11",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.104069649445291,
+        "segment_start": [
+          35.38348388671875,
+          56.8677864074707,
+          2.0
+        ],
+        "segment_end": [
+          32.993526458740234,
+          59.10618209838867,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:12",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.100498027270213,
+        "segment_start": [
+          14.351661682128906,
+          36.75993347167969,
+          2.0
+        ],
+        "segment_end": [
+          12.785127639770508,
+          38.093204498291016,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:13",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.091420872602114,
+        "segment_start": [
+          16.798500061035156,
+          33.99203872680664,
+          2.0
+        ],
+        "segment_end": [
+          28.61745834350586,
+          62.52552795410156,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:14",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.11907662210104,
+        "segment_start": [
+          30.462221145629883,
+          61.183650970458984,
+          2.0
+        ],
+        "segment_end": [
+          32.993526458740234,
+          59.10618209838867,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:15",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.11907662210104,
+        "segment_start": [
+          30.462221145629883,
+          61.183650970458984,
+          2.0
+        ],
+        "segment_end": [
+          29.147024154663086,
+          62.15898513793945,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:16",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.105550220329956,
+        "segment_start": [
+          12.785127639770508,
+          38.093204498291016,
+          2.0
+        ],
+        "segment_end": [
+          11.095064163208008,
+          39.266700744628906,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:17",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.126528551060787,
+        "segment_start": [
+          27.80063819885254,
+          63.09089660644531,
+          2.0
+        ],
+        "segment_end": [
+          29.147024154663086,
+          62.15898513793945,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:18",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.132514436175597,
+        "segment_start": [
+          25.560829162597656,
+          64.48368072509766,
+          2.0
+        ],
+        "segment_end": [
+          14.148796081542969,
+          36.932594299316406,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:19",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.126528551060787,
+        "segment_start": [
+          27.80063819885254,
+          63.09089660644531,
+          2.0
+        ],
+        "segment_end": [
+          25.0198917388916,
+          64.82005310058594,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:20",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.110614782118013,
+        "segment_start": [
+          11.095064163208008,
+          39.266700744628906,
+          2.0
+        ],
+        "segment_end": [
+          9.299403190612793,
+          40.26826095581055,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:21",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.110213180841747,
+        "segment_start": [
+          11.21375560760498,
+          39.184288024902344,
+          2.0
+        ],
+        "segment_end": [
+          22.41023063659668,
+          66.21497344970703,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:22",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.141332850928421,
+        "segment_start": [
+          22.131990432739258,
+          66.36369323730469,
+          2.0
+        ],
+        "segment_end": [
+          25.0198917388916,
+          64.82005310058594,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:23",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.141332850928421,
+        "segment_start": [
+          22.131990432739258,
+          66.36369323730469,
+          2.0
+        ],
+        "segment_end": [
+          20.65174674987793,
+          67.06378173828125,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:24",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.115596914387503,
+        "segment_start": [
+          9.299403190612793,
+          40.26826095581055,
+          2.0
+        ],
+        "segment_end": [
+          7.4134368896484375,
+          41.08931350708008,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:25",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.11888360193112,
+        "segment_start": [
+          8.024864196777344,
+          40.82312774658203,
+          2.0
+        ],
+        "segment_end": [
+          19.151500701904297,
+          67.6852035522461,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:26",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.14501546837776,
+        "segment_start": [
+          20.65174674987793,
+          67.06378173828125,
+          2.0
+        ],
+        "segment_end": [
+          17.626535415649414,
+          68.31686401367188,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:27",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.15221454300626,
+        "segment_start": [
+          17.626535415649414,
+          68.31686401367188,
+          2.0
+        ],
+        "segment_end": [
+          16.08478546142578,
+          68.86846923828125,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:28",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.120463164871403,
+        "segment_start": [
+          7.4134368896484375,
+          41.08931350708008,
+          2.0
+        ],
+        "segment_end": [
+          5.456053256988525,
+          41.721588134765625,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:29",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.159347176449565,
+        "segment_start": [
+          14.52574348449707,
+          69.36945343017578,
+          2.0
+        ],
+        "segment_end": [
+          16.08478546142578,
+          68.86846923828125,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:30",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.156471624389756,
+        "segment_start": [
+          15.810420989990234,
+          68.95663452148438,
+          2.0
+        ],
+        "segment_end": [
+          4.6059112548828125,
+          41.90655517578125,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:31",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.16636546788553,
+        "segment_start": [
+          11.362823486328125,
+          70.21695709228516,
+          2.0
+        ],
+        "segment_end": [
+          14.52574348449707,
+          69.36945343017578,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:32",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.125178357170597,
+        "segment_start": [
+          5.456053256988525,
+          41.721588134765625,
+          2.0
+        ],
+        "segment_end": [
+          3.4461147785186768,
+          42.15889358520508,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:33",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.169781932405481,
+        "segment_start": [
+          9.762298583984375,
+          70.5625991821289,
+          2.0
+        ],
+        "segment_end": [
+          11.362823486328125,
+          70.21695709228516,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:34",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.164173190711924,
+        "segment_start": [
+          12.354658126831055,
+          69.9511947631836,
+          2.0
+        ],
+        "segment_end": [
+          0.9447923302650452,
+          42.405338287353516,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:35",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.176517666443468,
+        "segment_start": [
+          6.5316290855407715,
+          71.09599304199219,
+          2.0
+        ],
+        "segment_end": [
+          9.762298583984375,
+          70.5625991821289,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:36",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.129697213152369,
+        "segment_start": [
+          3.4461147785186768,
+          42.15889358520508,
+          2.0
+        ],
+        "segment_end": [
+          1.4028598070144653,
+          42.39714431762695,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:37",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.179840824103488,
+        "segment_start": [
+          4.904720306396484,
+          71.2831802368164,
+          2.0
+        ],
+        "segment_end": [
+          6.5316290855407715,
+          71.09599304199219,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:38",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.171785592509984,
+        "segment_start": [
+          8.805614471435547,
+          70.72055053710938,
+          2.0
+        ],
+        "segment_end": [
+          0.0,
+          49.461917877197266,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:39",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.186252891632183,
+        "segment_start": [
+          1.6372261047363281,
+          71.4972915649414,
+          2.0
+        ],
+        "segment_end": [
+          4.904720306396484,
+          71.2831802368164,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:40",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.179289735592608,
+        "segment_start": [
+          5.158830642700195,
+          71.25394439697266,
+          2.0
+        ],
+        "segment_end": [
+          0.0,
+          58.7994270324707,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:41",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.136800677637837,
+        "segment_start": [
+          0.0,
+          42.4222412109375,
+          2.0
+        ],
+        "segment_end": [
+          1.4028598070144653,
+          42.39714431762695,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:42",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.186252891632183,
+        "segment_start": [
+          1.6372261047363281,
+          71.4972915649414,
+          2.0
+        ],
+        "segment_end": [
+          0.0,
+          71.50627136230469,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:43",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.186781626731328,
+        "segment_start": [
+          1.3924626111984253,
+          71.4986343383789,
+          2.0
+        ],
+        "segment_end": [
+          0.0,
+          68.13693237304688,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:44",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.189424651703181,
+        "segment_start": [
+          0.0,
+          71.50627136230469,
+          2.0
+        ],
+        "segment_end": [
+          -0.8185637593269348,
+          71.5107650756836,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:45",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.138147838140572,
+        "segment_start": [
+          -0.6538475155830383,
+          42.433937072753906,
+          2.0
+        ],
+        "segment_end": [
+          0.0,
+          42.4222412109375,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:46",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.19101457280686,
+        "segment_start": [
+          -0.8185637593269348,
+          71.5107650756836,
+          2.0
+        ],
+        "segment_end": [
+          -3.2727603912353516,
+          71.41693878173828,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:47",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.149202771310573,
+        "segment_start": [
+          0.0,
+          49.461917877197266,
+          2.0
+        ],
+        "segment_end": [
+          -3.0016510486602783,
+          42.21529006958008,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:48",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.141862943249649,
+        "segment_start": [
+          -2.7044718265533447,
+          42.26890182495117,
+          2.0
+        ],
+        "segment_end": [
+          -0.6538475155830383,
+          42.433937072753906,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:49",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.19552496874846,
+        "segment_start": [
+          -3.2727603912353516,
+          71.41693878173828,
+          2.0
+        ],
+        "segment_end": [
+          -4.904720306396484,
+          71.2831802368164,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:50",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.165970912968918,
+        "segment_start": [
+          0.0,
+          58.7994270324707,
+          2.0
+        ],
+        "segment_end": [
+          -7.333120346069336,
+          41.095706939697266,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:51",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.204259457193794,
+        "segment_start": [
+          -8.151211738586426,
+          70.8557357788086,
+          2.0
+        ],
+        "segment_end": [
+          -4.904720306396484,
+          71.2831802368164,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:52",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.141862943249649,
+        "segment_start": [
+          -2.7044718265533447,
+          42.26890182495117,
+          2.0
+        ],
+        "segment_end": [
+          -4.72869348526001,
+          41.90371322631836,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:53",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.155017383215249,
+        "segment_start": [
+          -12.296856880187988,
+          38.44969177246094,
+          2.0
+        ],
+        "segment_end": [
+          0.0,
+          68.13693237304688,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:54",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.204259457193794,
+        "segment_start": [
+          -8.151211738586426,
+          70.8557357788086,
+          2.0
+        ],
+        "segment_end": [
+          -11.362823486328125,
+          70.21695709228516,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:55",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.209686949544409,
+        "segment_start": [
+          -11.362823486328125,
+          70.21695709228516,
+          2.0
+        ],
+        "segment_end": [
+          -12.951297760009766,
+          69.81901550292969,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:56",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.14525750038009,
+        "segment_start": [
+          -4.72869348526001,
+          41.90371322631836,
+          2.0
+        ],
+        "segment_end": [
+          -6.707016944885254,
+          41.34199523925781,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:57",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.214807697106938,
+        "segment_start": [
+          -14.52574348449707,
+          69.36945343017578,
+          2.0
+        ],
+        "segment_end": [
+          -12.951297760009766,
+          69.81901550292969,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:58",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.214807697106938,
+        "segment_start": [
+          -14.52574348449707,
+          69.36945343017578,
+          2.0
+        ],
+        "segment_end": [
+          -17.626535415649414,
+          68.31686401367188,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:59",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.194077624426146,
+        "segment_start": [
+          -2.4968113899230957,
+          71.44660186767578,
+          2.0
+        ],
+        "segment_end": [
+          -18.604887008666992,
+          32.55826950073242,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:60",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.151006095798845,
+        "segment_start": [
+          -8.620780944824219,
+          40.58917999267578,
+          2.0
+        ],
+        "segment_end": [
+          -6.707016944885254,
+          41.34199523925781,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:61",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.21960166180907,
+        "segment_start": [
+          -17.626535415649414,
+          68.31686401367188,
+          2.0
+        ],
+        "segment_end": [
+          -19.900659561157227,
+          67.38938903808594,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:62",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.201388986661184,
+        "segment_start": [
+          -6.520337104797363,
+          71.0704574584961,
+          2.0
+        ],
+        "segment_end": [
+          -21.749073028564453,
+          34.30503845214844,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:63",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.226074413950125,
+        "segment_start": [
+          -22.131990432739258,
+          66.36369323730469,
+          2.0
+        ],
+        "segment_end": [
+          -19.900659561157227,
+          67.38938903808594,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:64",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.151006095798845,
+        "segment_start": [
+          -8.620780944824219,
+          40.58917999267578,
+          2.0
+        ],
+        "segment_end": [
+          -10.452127456665039,
+          39.652099609375,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:65",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.229890772028702,
+        "segment_start": [
+          -25.0198917388916,
+          64.82005310058594,
+          2.0
+        ],
+        "segment_end": [
+          -22.131990432739258,
+          66.36369323730469,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:66",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.208580191109544,
+        "segment_start": [
+          -10.68581771850586,
+          70.35160827636719,
+          2.0
+        ],
+        "segment_end": [
+          -24.893259048461914,
+          36.05181121826172,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:67",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.231665895599903,
+        "segment_start": [
+          -26.42429542541504,
+          63.978275299072266,
+          2.0
+        ],
+        "segment_end": [
+          -25.0198917388916,
+          64.82005310058594,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:68",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.15322146385104,
+        "segment_start": [
+          -10.452127456665039,
+          39.652099609375,
+          2.0
+        ],
+        "segment_end": [
+          -12.18252182006836,
+          38.540157318115234,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:69",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.233269324815298,
+        "segment_start": [
+          -27.80063819885254,
+          63.09089660644531,
+          2.0
+        ],
+        "segment_end": [
+          -26.42429542541504,
+          63.978275299072266,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:70",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.215624365406956,
+        "segment_start": [
+          -15.031472206115723,
+          69.1977767944336,
+          2.0
+        ],
+        "segment_end": [
+          -28.037445068359375,
+          37.798580169677734,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:71",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.236167605777005,
+        "segment_start": [
+          -30.462221145629883,
+          61.183650970458984,
+          2.0
+        ],
+        "segment_end": [
+          -27.80063819885254,
+          63.09089660644531,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:72",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.154991200996479,
+        "segment_start": [
+          -12.18252182006836,
+          38.540157318115234,
+          2.0
+        ],
+        "segment_end": [
+          -13.795764923095703,
+          37.26374435424805,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:73",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.200085991608205,
+        "segment_start": [
+          -31.18163299560547,
+          39.545352935791016,
+          2.0
+        ],
+        "segment_end": [
+          -19.596946716308594,
+          67.51325988769531,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:74",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.236167605777005,
+        "segment_start": [
+          -30.462221145629883,
+          61.183650970458984,
+          2.0
+        ],
+        "segment_end": [
+          -32.36918640136719,
+          59.635929107666016,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:75",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.238034031591091,
+        "segment_start": [
+          -32.36918640136719,
+          59.635929107666016,
+          2.0
+        ],
+        "segment_end": [
+          -34.206764221191406,
+          58.006591796875,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:76",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.229142458595682,
+        "segment_start": [
+          -24.4552059173584,
+          65.12188720703125,
+          2.0
+        ],
+        "segment_end": [
+          -34.3258171081543,
+          41.29212188720703,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:77",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.157051919309074,
+        "segment_start": [
+          -15.275839805603027,
+          35.83564758300781,
+          2.0
+        ],
+        "segment_end": [
+          -13.795764923095703,
+          37.26374435424805,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:78",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.239580422876891,
+        "segment_start": [
+          -34.206764221191406,
+          58.006591796875,
+          2.0
+        ],
+        "segment_end": [
+          -35.38348388671875,
+          56.8677864074707,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:79",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.240489410563402,
+        "segment_start": [
+          -35.38348388671875,
+          56.8677864074707,
+          2.0
+        ],
+        "segment_end": [
+          -37.62187957763672,
+          54.477928161621094,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:80",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.235400608382598,
+        "segment_start": [
+          -29.739757537841797,
+          61.701358795166016,
+          2.0
+        ],
+        "segment_end": [
+          -37.47000503540039,
+          43.03889083862305,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:81",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.157291580078486,
+        "segment_start": [
+          -16.609111785888672,
+          34.269039154052734,
+          2.0
+        ],
+        "segment_end": [
+          -15.275839805603027,
+          35.83564758300781,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:82",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.241884158281088,
+        "segment_start": [
+          -37.62187957763672,
+          54.477928161621094,
+          2.0
+        ],
+        "segment_end": [
+          -39.69919967651367,
+          51.946693420410156,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:83",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.240755824289067,
+        "segment_start": [
+          -35.78890609741211,
+          56.434932708740234,
+          2.0
+        ],
+        "segment_end": [
+          -40.614192962646484,
+          44.78566360473633,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:84",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.24296654843268,
+        "segment_start": [
+          -40.674583435058594,
+          50.63142395019531,
+          2.0
+        ],
+        "segment_end": [
+          -39.69919967651367,
+          51.946693420410156,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:85",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.157291580078486,
+        "segment_start": [
+          -16.609111785888672,
+          34.269039154052734,
+          2.0
+        ],
+        "segment_end": [
+          -17.782115936279297,
+          32.579750061035156,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:86",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.2429821402356,
+        "segment_start": [
+          -42.05023193359375,
+          48.59687423706055,
+          2.0
+        ],
+        "segment_end": [
+          -40.674583435058594,
+          50.63142395019531,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:87",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.2429821402356,
+        "segment_start": [
+          -42.05023193359375,
+          48.59687423706055,
+          2.0
+        ],
+        "segment_end": [
+          -43.33567810058594,
+          46.50423812866211,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:88",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.156833587796744,
+        "segment_start": [
+          -17.98590660095215,
+          32.214393615722656,
+          2.0
+        ],
+        "segment_end": [
+          -17.782115936279297,
+          32.579750061035156,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:89",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.242589709650613,
+        "segment_start": [
+          -43.420841217041016,
+          46.344913482666016,
+          2.0
+        ],
+        "segment_end": [
+          -43.33567810058594,
+          46.50423812866211,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:90",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.07428051989221,
+        "segment_start": [
+          43.33567810058594,
+          46.50423812866211,
+          2.0
+        ],
+        "segment_end": [
+          43.420841217041016,
+          46.344913482666016,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:91",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.07428051989221,
+        "segment_start": [
+          43.33567810058594,
+          46.50423812866211,
+          2.0
+        ],
+        "segment_end": [
+          42.49379348754883,
+          47.90882873535156,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:92",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.079444420241952,
+        "segment_start": [
+          42.13325119018555,
+          48.46799850463867,
+          2.0
+        ],
+        "segment_end": [
+          40.60612106323242,
+          44.78117752075195,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      },
+      {
+        "task_id": "2:93",
+        "from_robot": 3,
+        "to_robot": 2,
+        "collision_time_s": 9.077909561564628,
+        "segment_start": [
+          42.49379348754883,
+          47.90882873535156,
+          2.0
+        ],
+        "segment_end": [
+          41.60655212402344,
+          49.28486251831055,
+          2.0
+        ],
+        "reason": "unresolved_after_owned_work_handoff",
+        "retry_passes": 0
+      }
+    ],
+    "task_execution": [
+      {
+        "task_id": "1:0",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:1",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:2",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:3",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:4",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:5",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:6",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:7",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:8",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:9",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:10",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:11",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:12",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:13",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:14",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:15",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:16",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:17",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:18",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:19",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:20",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:21",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:22",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:23",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:24",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:25",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:26",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:27",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:28",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:29",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:30",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:31",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:32",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:33",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:34",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:35",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:36",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:37",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:38",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:39",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:40",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:41",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:42",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:43",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:44",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:45",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:46",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:47",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:48",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:49",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:50",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:51",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:52",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:53",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:54",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:55",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:56",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:57",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:58",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:59",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:60",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:61",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:62",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:63",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:64",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:65",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:66",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:67",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:68",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:69",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:70",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:71",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:72",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:73",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:74",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:75",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:76",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:77",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:78",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:79",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:80",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:81",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:82",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:83",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:84",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:85",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:86",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:87",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:88",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:89",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:90",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "1:91",
+        "original_robot": 2,
+        "executing_robot": 2,
+        "phase": "primary",
+        "recovered_after_skip": false
+      },
+      {
+        "task_id": "0:0",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:1",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:2",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:3",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:4",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:5",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:6",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:7",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:8",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:9",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:10",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:11",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:12",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:13",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:14",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:15",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:16",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:17",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:18",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:19",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:20",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:21",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:22",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:23",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:24",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:25",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:26",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:27",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:28",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:29",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:30",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:31",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:32",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:33",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:34",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:35",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:36",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:37",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:38",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:39",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:40",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:41",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:42",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:43",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:44",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:45",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:46",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:47",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:48",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:49",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:50",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:51",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:52",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:53",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:54",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:55",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:56",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:57",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:58",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:59",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:60",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:61",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:62",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:63",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:64",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:65",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:66",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:67",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:68",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:69",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:70",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:71",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:72",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:73",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:74",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:75",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:76",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:77",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:78",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:79",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:80",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:81",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:82",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:83",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:84",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:85",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:86",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:87",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:88",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:89",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:90",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:91",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:92",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:93",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "0:94",
+        "original_robot": 1,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:0",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:1",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:2",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:3",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:4",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:5",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:6",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:7",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:8",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:9",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:10",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:11",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:12",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:13",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:14",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:15",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:16",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:17",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:18",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:19",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:20",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:21",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:22",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:23",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:24",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:25",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:26",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:27",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:28",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:29",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:30",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:31",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:32",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:33",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:34",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:35",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:36",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:37",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:38",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:39",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:40",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:41",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:42",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:43",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:44",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:45",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:46",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:47",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:48",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:49",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:50",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:51",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:52",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:53",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:54",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:55",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:56",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:57",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:58",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:59",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:60",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:61",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:62",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:63",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:64",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:65",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:66",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:67",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:68",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:69",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:70",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:71",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:72",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:73",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:74",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:75",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:76",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:77",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:78",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:79",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:80",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:81",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:82",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:83",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:84",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:85",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:86",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:87",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:88",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:89",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:90",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:91",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:92",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      },
+      {
+        "task_id": "2:93",
+        "original_robot": 3,
+        "executing_robot": 2,
+        "phase": "deferred"
+      }
+    ],
+    "schedule_checks": 282,
+    "requested_layer_priority": [
+      2,
+      1,
+      3
+    ],
+    "effective_layer_priority": [
+      2,
+      1,
+      3
+    ],
+    "priority_fallback_used": false
+  }
+]
