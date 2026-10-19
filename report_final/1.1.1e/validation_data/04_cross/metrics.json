@@ -1,0 +1,47 @@
+{
+  "version": "1.1.1.e",
+  "split": "validation",
+  "job": "04_cross",
+  "model_timesteps": 2560,
+  "policy_sha256": "3177784755e4591f727ff803da8ef28b676b6e97457a1e83b809922c9db94c93",
+  "checkpoint_sha256": "",
+  "code_sha256": "39758fb13b7f498a8bce799fd92f7a9096f6bf8e4204233a4c538a48cf83cbe1",
+  "target_sha256": "c721ca7b21a64464540d8c40b31dec972ab5c0089b2d6704b60ba29a8034ffc5",
+  "config_sha256": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e",
+  "cache_key": "56dc778cafe6f2085c429822b23a3efe38a7d2fe9d3b1a4e33185d2e9afc3f1f",
+  "cache_hit": false,
+  "status": "complete",
+  "makespan_s": 269.29171314730314,
+  "reward": -269.29171314730314,
+  "computation_s": 0.4048707999754697,
+  "layers": 1,
+  "robots": [
+    {
+      "deposition_s": 0,
+      "travel_s": 0,
+      "wait_s": 269.29171314730314,
+      "utilization": 0.0,
+      "deposition_utilization": 0.0
+    },
+    {
+      "deposition_s": 219.46657827928973,
+      "travel_s": 49.82513486801339,
+      "wait_s": 0,
+      "utilization": 1.0,
+      "deposition_utilization": 0.8149770957089981
+    },
+    {
+      "deposition_s": 0,
+      "travel_s": 0,
+      "wait_s": 269.29171314730314,
+      "utilization": 0.0,
+      "deposition_utilization": 0.0
+    }
+  ],
+  "collision_certified": true,
+  "validator_status": "PASS",
+  "artifact_dir": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\output\\train_e_40updates_20261019\\validation_update_0040\\04_cross",
+  "validator_wall_s": 0.14609930000733584,
+  "collision_events": 0,
+  "iou": 0.9962085458896427
+}

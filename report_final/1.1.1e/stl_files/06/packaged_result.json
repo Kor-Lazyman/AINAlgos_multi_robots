@@ -1,0 +1,17 @@
+{
+  "version": "1.1.1e",
+  "split": "stl_files",
+  "job": "06",
+  "model_timesteps": 2560,
+  "checkpoint_sha256": "be54826832deb980b76b535907401a4d3104634f9d7e1cce8c49369a66d7b232",
+  "makespan_s": 8800.30116964532,
+  "computation_s": 10.50056749995565,
+  "validator_status": "PASS",
+  "layers": 51,
+  "robot1_utilization": 0.0,
+  "robot2_utilization": 1.0,
+  "robot3_utilization": 0.0,
+  "artifact_dir": "1.1.1e/stl_files/06",
+  "source_artifact_dir": "C:\\Users\\lazzyman\\Desktop\\AINalgos2\\version 1.1.1.e\\output\\train_e_40updates_20261019\\final_stl\\06",
+  "target_sha256": "0b56e06778553992d12fb47031fff6dc12735d79bdcb49c39a7bb5c96eef12f1"
+}

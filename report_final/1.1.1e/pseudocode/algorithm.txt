@@ -1,0 +1,26 @@
+Input: STL M, robot configuration C, PPO policy pi
+Output: three collision-checked robot trajectories
+Sample equal-weight interior points from M
+Project to XY, preserving the multiplicity along Z
+Search one feasible XY shift balancing nearest owners
+Translate the entire STL once; slice into target layers
+for each target layer do
+    a <- pi(s): hatch angle, each robot start XY and
+               sweep direction, layer priority order
+    Generate hatch paths; partition by nearest reach
+    Project start XY onto each robot owned segments
+    Split at the selected point; order each robot path
+    for robot r in priority order do
+        for each owned task q in its path order do
+            Check approach, deposition and safe return
+            if safe then reserve q for r
+            else queue q for the highest reachable
+                 higher-priority robot; keep r if none
+        Continue checking the remaining owned tasks
+    Append deferred queues after primary routes
+    Delay queue release at home only when required
+    Verify every task is deposited exactly once
+    Check physical collisions and trajectory semantics
+    reward <- negative layer makespan; append layer
+end for; train PPO with gamma = 1
+Export trajectories; run Validator for evaluation only

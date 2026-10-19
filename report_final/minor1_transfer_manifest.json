@@ -1,0 +1,1382 @@
+﻿[
+    {
+        "path":  "minor1_중간보고서.docx",
+        "size":  369638,
+        "sha256":  "613C99EE1DE524EE775FB46FA5A47C958AB513B3CB419E5F42FFD799B4AEFF66"
+    },
+    {
+        "path":  "model_results.csv",
+        "size":  505,
+        "sha256":  "ED10AFBF2064485FB1BF66278D5F2CE54BD9C522FE84E960FE0D69D310884772"
+    },
+    {
+        "path":  "README.md",
+        "size":  1282,
+        "sha256":  "3C134C614F98D3D6F924787EC4209D4A1C5AF60FBDB2D10FB2C443D04AB7A8FD"
+    },
+    {
+        "path":  "results.json",
+        "size":  13469,
+        "sha256":  "3D02C3C456E592460EFE58501CCD1E4A5F7EDFDB5B5EC48B2B4B890CD6EAD30A"
+    },
+    {
+        "path":  "test-version.py",
+        "size":  6715,
+        "sha256":  "6F9F3DD95E44BDF788182F3F072319779DE1D064857E2D472D026173E67C1CA3"
+    },
+    {
+        "path":  "model\\best_model.pair.json",
+        "size":  308,
+        "sha256":  "F80F8B228CCDAC24C1659D46066673008FC1F9701A69664EC082650A80F3271E"
+    },
+    {
+        "path":  "model\\best_model.zip",
+        "size":  639514,
+        "sha256":  "3391729F4F8A41EB478E4820BF777739B97B1B53B35AB95BEE7CD180E3CBD39A"
+    },
+    {
+        "path":  "model\\best_placement_model.zip",
+        "size":  200279,
+        "sha256":  "0945D7DDD0FEC6A413683307E8A9BFBB607B9932647D40052786807D8CEEEFDA"
+    },
+    {
+        "path":  "model\\checkpoint.zip",
+        "size":  639695,
+        "sha256":  "7A716B4BE5F5BB714E427EDC07DE0666ED9251087E2A44465ED0B62B7076CD1B"
+    },
+    {
+        "path":  "model\\placement_checkpoint.zip",
+        "size":  201240,
+        "sha256":  "DF2F20451D67A134709CF004D222785D9D336BE63189F5DF35C1DFCF3A1461F9"
+    },
+    {
+        "path":  "model\\training.json",
+        "size":  11347,
+        "sha256":  "5E62AD70BE57F89F47057927B58049A851B01D0297AB2823813C553DE3C26036"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\evaluation.json",
+        "size":  735,
+        "sha256":  "47D1839E6416FC3CBB8FE9CE1817AFF4D733D60E2CC449B0748B621E1D72F3AA"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\gantt.html",
+        "size":  4874546,
+        "sha256":  "AC9C2771ECF85494E1587D0FB7BACD39E1718188B7901CC091F9CA89D0380E5C"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\gantt.svg",
+        "size":  3211,
+        "sha256":  "A0CA04FC1BEDBDA28DBA666CEC3E190DBE4AA6DD3F062C69D7DF2B52C79D7D15"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\trajectory.csv",
+        "size":  2769,
+        "sha256":  "C9889004404F1EAD7EFD0E3496A7AB240E67F2980146E0B33CC612160B4BAA26"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\input\\config.yaml",
+        "size":  1572,
+        "sha256":  "93293BE7FA017DF46FFD7913B4D48A54EBDC8A8B1C1EB072A2A001F4EE43165E"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\input\\placement.json",
+        "size":  432,
+        "sha256":  "F995F571E8B348E8589D242125EE1E1DA63534EA7B4FD635C5A8E1C234E12E93"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\input\\target.stl",
+        "size":  6684,
+        "sha256":  "96766ECF5816DC01A4AD2809D6932DDDB6784D61CD3C181004772EABF0E74993"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\input\\trajectory.csv",
+        "size":  2769,
+        "sha256":  "C9889004404F1EAD7EFD0E3496A7AB240E67F2980146E0B33CC612160B4BAA26"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\scenario\\config.yaml",
+        "size":  1572,
+        "sha256":  "93293BE7FA017DF46FFD7913B4D48A54EBDC8A8B1C1EB072A2A001F4EE43165E"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\scenario\\target.stl",
+        "size":  6684,
+        "sha256":  "8481A3F963C06D93A8BAB4972318DBE2C3F5D1D836D6969CE5B4C6C81008E69C"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\validation\\layer_metrics.csv",
+        "size":  352,
+        "sha256":  "3B545A10F15D1752E7B87B47C0888E66CBD42EC46DB80B464975AF3751E03842"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\validation\\robot_metrics.csv",
+        "size":  865,
+        "sha256":  "7A8C5AD6D141DDFEEEA287A12D2F7B13053D68D2D1957569F06DF7B93F12132B"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\validation\\run.log",
+        "size":  1715,
+        "sha256":  "3D4736812F0A46778DC094C975EE482EE44B78DD90C9A82D1DF18252A531332C"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\validation\\summary.json",
+        "size":  3822,
+        "sha256":  "D4B0F604A4D971960B63A7F2B1DAC0382D0E399BB21F97E812EEAFF5700AE2C7"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\validation\\validation_inputs.json",
+        "size":  3132,
+        "sha256":  "ACD947E59B212E8D7EF9DA94714A3F9228D76900677A75A82D2348B0580ABD71"
+    },
+    {
+        "path":  "output\\target_20261018_234521\\validation\\validation_report.md",
+        "size":  2420,
+        "sha256":  "6C2263CFAEA0189C18374FD01964572970B91FAC25358758CD57309F4F1851A5"
+    },
+    {
+        "path":  "pseudocode\\algorithm.md",
+        "size":  653,
+        "sha256":  "6177FBC965A88CEE351880622178DF6BA6ACB11D6EF6FBA2652108108C80BD5D"
+    },
+    {
+        "path":  "pseudocode\\algorithm.png",
+        "size":  244152,
+        "sha256":  "776F10FE47565DCF0A4FCF0C9B5058CB34B50659FA16BBD6D9851095C22FD861"
+    },
+    {
+        "path":  "runtime\\layer_assignment_env.py",
+        "size":  24007,
+        "sha256":  "F1777AE0CEE18D706ED5441F7C2D4430B814511869EFC770614528995E43D613"
+    },
+    {
+        "path":  "runtime\\placement.py",
+        "size":  10524,
+        "sha256":  "FF3CD32E5C6046E761EAF6AC8D021EFB0D918802F62D645F6BE43AB5F8BBA758"
+    },
+    {
+        "path":  "runtime\\rewards.py",
+        "size":  1570,
+        "sha256":  "1A35F2340E19ECD16275E5FE9F228E0E4846D896AA0A506DD15331596586D774"
+    },
+    {
+        "path":  "runtime\\scheduler.py",
+        "size":  8961,
+        "sha256":  "A6476673C87E45426F36368284DFAA78A335FA14F039D9B9F21FAA9239F2A478"
+    },
+    {
+        "path":  "runtime\\validator_adapter.py",
+        "size":  1413,
+        "sha256":  "D26BC5C44BC9021E73EA6C9ACA2B44384C45D13759B5D1028E4B4811858B840D"
+    },
+    {
+        "path":  "runtime\\__pycache__\\layer_assignment_env.cpython-311.pyc",
+        "size":  46657,
+        "sha256":  "6ABF9E45A2CC30333D3A914F3D9A5AA5D58218BD117373C4044DBFC74A954A2C"
+    },
+    {
+        "path":  "runtime\\__pycache__\\placement.cpython-311.pyc",
+        "size":  21152,
+        "sha256":  "5CC94D2FCF91380826C67A55246F113B6AFE3BB6EBE40F42B5A6CAA57A0FC4AD"
+    },
+    {
+        "path":  "runtime\\__pycache__\\rewards.cpython-311.pyc",
+        "size":  3270,
+        "sha256":  "C365933D6FE0567F0995E9B9068C1FD6DEBD5A118E4FC80EC97109C2C46FF969"
+    },
+    {
+        "path":  "runtime\\__pycache__\\scheduler.cpython-311.pyc",
+        "size":  18991,
+        "sha256":  "3905FA58CA4932E7B94A2B4F1BC8975FF69C3E51D97D85DE5A4E7E876036A037"
+    },
+    {
+        "path":  "runtime\\__pycache__\\validator_adapter.cpython-311.pyc",
+        "size":  3880,
+        "sha256":  "469894D11A2FAB8314613F5774A745DC3C66ECFD08545194CE599AB766343869"
+    },
+    {
+        "path":  "stl_files\\evaluation.json",
+        "size":  28641,
+        "sha256":  "784C7A5919DC1645959BF5B99B0825DA459A02A0DC5B75EC80546E0D7D5F6B60"
+    },
+    {
+        "path":  "stl_files\\index.html",
+        "size":  2326,
+        "sha256":  "E40B5A63837A22AA22C6618421E86A2DF7D36A094CFACE45FD1818F9379CCCCF"
+    },
+    {
+        "path":  "stl_files\\model_snapshot.pair.json",
+        "size":  310,
+        "sha256":  "FA3B5288AF219AE26BCB920A2333C786EB5D10735DB9F381961214748EA7F9A8"
+    },
+    {
+        "path":  "stl_files\\model_snapshot.zip",
+        "size":  639514,
+        "sha256":  "3391729F4F8A41EB478E4820BF777739B97B1B53B35AB95BEE7CD180E3CBD39A"
+    },
+    {
+        "path":  "stl_files\\placement_snapshot.zip",
+        "size":  200279,
+        "sha256":  "0945D7DDD0FEC6A413683307E8A9BFBB607B9932647D40052786807D8CEEEFDA"
+    },
+    {
+        "path":  "stl_files\\gantt\\01_gantt.html",
+        "size":  5093054,
+        "sha256":  "00150CA1008C35EA08F755F1CED7BE62CC172D6EA766565A573F6E26CCEE031E"
+    },
+    {
+        "path":  "stl_files\\gantt\\02_gantt.html",
+        "size":  5082245,
+        "sha256":  "DC720A0B8887DAB835B87F181F1830FACACDE9F0BECDDA5D48654826D6F2D7E8"
+    },
+    {
+        "path":  "stl_files\\gantt\\03_gantt.html",
+        "size":  5191556,
+        "sha256":  "F94BA93B91DA2DFC353BBDE5731471A3F65253881E943D8A435BBD73A6872975"
+    },
+    {
+        "path":  "stl_files\\gantt\\04_gantt.html",
+        "size":  4923953,
+        "sha256":  "F2267C1E28994337FCB58CA68D2EAD8B9D5C52BF670EFC25ABE9E90D571120FE"
+    },
+    {
+        "path":  "stl_files\\gantt\\05_gantt.html",
+        "size":  5134505,
+        "sha256":  "0872134433A994D59DFFF444EF18A4D9BB15BA4A451E777813E96688495B40B7"
+    },
+    {
+        "path":  "stl_files\\gantt\\06_gantt.html",
+        "size":  4943100,
+        "sha256":  "6E3B6EA7472FED00727517EA3CA4B94DFA15F4E3DE940CE62B9F25FB18564837"
+    },
+    {
+        "path":  "stl_files\\gantt\\gantt_metrics.csv",
+        "size":  1615,
+        "sha256":  "D4B622D5014897C365F02BAD32B3D51AAE5514F07E9B6D341253F89F17181259"
+    },
+    {
+        "path":  "stl_files\\gantt\\index.html",
+        "size":  6094212,
+        "sha256":  "2CD33C75C9F3E7C0850BB4FFC788EDB9ECC2F268DC0D0A3CD2D0A7B9441623B5"
+    },
+    {
+        "path":  "stl_files\\gantt\\per_shape_results.csv",
+        "size":  509,
+        "sha256":  "47A1A4B3C68F1BD154A82F629B5F5B342E972D2E79E94D908F07A8110650F510"
+    },
+    {
+        "path":  "stl_files\\gantt_images\\01_gantt.png",
+        "size":  13513,
+        "sha256":  "D670FD80167140DC30EEB9F492F51CD26E4C1A58C64EB9F174D5C5C5585F8F97"
+    },
+    {
+        "path":  "stl_files\\gantt_images\\02_gantt.png",
+        "size":  14198,
+        "sha256":  "4B960075DFF982B447CBC75546755F31F99A6918380FCBBD5326942229CA7F64"
+    },
+    {
+        "path":  "stl_files\\gantt_images\\03_gantt.png",
+        "size":  14115,
+        "sha256":  "9FD3D124E305A6CB38742D4F48BA4BD7B47BA3A6F65D25E49B345E45FEB73B0C"
+    },
+    {
+        "path":  "stl_files\\gantt_images\\04_gantt.png",
+        "size":  14998,
+        "sha256":  "415D709C4B0952FAD07A71554748701E7923076DDA16CFE7A847635C3153DD10"
+    },
+    {
+        "path":  "stl_files\\gantt_images\\05_gantt.png",
+        "size":  17333,
+        "sha256":  "CB057D09F4CFE0BABC84AABCC0C340F3A751F0D3759E693CCD625CA0E687FA45"
+    },
+    {
+        "path":  "stl_files\\gantt_images\\06_gantt.png",
+        "size":  14817,
+        "sha256":  "01BA185ACBD1EEE87400BFDCD88C187EAA84737321294F584EA94D2E16603F74"
+    },
+    {
+        "path":  "stl_files\\gantt_images\\job_00_episode_000_input_gantt.svg",
+        "size":  99649,
+        "sha256":  "6C29606EBB393F6709E76B7EAE6FD29F65640B0F73754E52ACCDCB01A20DA309"
+    },
+    {
+        "path":  "stl_files\\gantt_images\\job_01_episode_000_input_gantt.svg",
+        "size":  96141,
+        "sha256":  "4F85CD9767E00BCBD4D83B08EFDADCF8C59C40A25313C58EDF931DE2AC550C3D"
+    },
+    {
+        "path":  "stl_files\\gantt_images\\job_02_episode_000_input_gantt.svg",
+        "size":  141313,
+        "sha256":  "8400D0DAE4A98493D359602BBD2ABFAFCB8980625150556164A67868CA07748E"
+    },
+    {
+        "path":  "stl_files\\gantt_images\\job_03_episode_000_input_gantt.svg",
+        "size":  26722,
+        "sha256":  "F49C5D98941425A0A0356A40E26400446F979D442F90941947C33AB57A305DFD"
+    },
+    {
+        "path":  "stl_files\\gantt_images\\job_04_episode_000_input_gantt.svg",
+        "size":  118727,
+        "sha256":  "F8E33B95A6AE9D7F14E31E45A5993B4DEA1A56BCC6E986BB98F8D16D75C908F0"
+    },
+    {
+        "path":  "stl_files\\gantt_images\\job_05_episode_000_input_gantt.svg",
+        "size":  120370,
+        "sha256":  "7A5806A9EFF679BBB21447A217267C5EDD2139D2F4D9A0897AD729F45D3DDF5C"
+    },
+    {
+        "path":  "stl_files\\images\\job_00_episode_000_input_target.svg",
+        "size":  99909,
+        "sha256":  "401594913943C656306035B5B423812941EA98BCC5D2EE2507991C2F41D15367"
+    },
+    {
+        "path":  "stl_files\\images\\job_01_episode_000_input_target.svg",
+        "size":  341236,
+        "sha256":  "CFC320F897749D95AFC68CEA426701E3B7FFEAD21525CA341C7C02020A92A295"
+    },
+    {
+        "path":  "stl_files\\images\\job_02_episode_000_input_target.svg",
+        "size":  69988,
+        "sha256":  "BE90B692C9A8D22F449DDBDB928217A6A151025BEDB2B2D299246F011CB38520"
+    },
+    {
+        "path":  "stl_files\\images\\job_03_episode_000_input_target.svg",
+        "size":  182388,
+        "sha256":  "E6B4AA601797E037839568DB3C979D4B0439703EF609A17F43F66FEF1DC71D06"
+    },
+    {
+        "path":  "stl_files\\images\\job_04_episode_000_input_target.svg",
+        "size":  340805,
+        "sha256":  "F66CE08BC199CDF75134A4E0D2CB17B7F7503C7B0F01F7AD759D4B9B551F04D3"
+    },
+    {
+        "path":  "stl_files\\images\\job_05_episode_000_input_target.svg",
+        "size":  1760,
+        "sha256":  "A2DFCBDF29C32A6B4818580D8B4FE04FB23740871C0092EE6939DA654F12F44A"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\artifacts.json",
+        "size":  578,
+        "sha256":  "1D3497816B078F28A71B7F06842320D319D41D0C964D8A06E72D7518ECB4FC68"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\deposited.stl",
+        "size":  511884,
+        "sha256":  "0F2E4015035DB4B4CBEBBECCF92CD827C357D995A3FF6CB87EA1890C586CFEB4"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\episode.json",
+        "size":  26596,
+        "sha256":  "CB552BD0DE9AB9CC008B0D6056A39B05755348DE0C92A94F6DD929DD64260041"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\layer_trace.json",
+        "size":  19682,
+        "sha256":  "3F74CF28F2DBD866CF5CFC7EA211D671E57843319C09F48B4EC14C4DC604E688"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\input\\config.yaml",
+        "size":  1760,
+        "sha256":  "0C6111E4657F0CC4FC3BA0722AB18CCB78A533E7C233E08B185673C8D846C7E7"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\input\\placement.json",
+        "size":  466,
+        "sha256":  "965214EBD559A19FB30CFE6DB2ABA3DD30A5D0CC04449C8092CB3D2FC3BE4422"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\input\\target.stl",
+        "size":  66084,
+        "sha256":  "8B3DD3B1E5EA16375723B1BDEFF8FB5475BF19B7A4B4636666A3C1A7B6C2174C"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\input\\trajectory.csv",
+        "size":  235649,
+        "sha256":  "45BFD885107186EB5AE1E36A74F8D31FDCDC67FC8C610331E5C003856C1181C8"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\validation\\layer_metrics.csv",
+        "size":  1066,
+        "sha256":  "6354CD04CEAF2CA1C9E1336145377D8A2E3295C37225B7652AF21314F3CFF10B"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\validation\\robot_metrics.csv",
+        "size":  984,
+        "sha256":  "EBC9503E8D92232256DCE52743F7699A612B8A9943671CD93D50841E82DDB295"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\validation\\run.log",
+        "size":  1763,
+        "sha256":  "976C557DFAFBB302BF9FFF087C4D71E3252342FA594CCA4AB90BDF8D4A5F4ADB"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\validation\\summary.json",
+        "size":  3945,
+        "sha256":  "CE5DE7CC87A7C57578ACBAB0FB2896F45DED73E7F5DC3854D0B46D8D17EBF306"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\validation\\validation_inputs.json",
+        "size":  3149,
+        "sha256":  "62D71C17FE7607D063A493211592AF902A1283B284EB629394687B16C214C205"
+    },
+    {
+        "path":  "stl_files\\job_00\\episode_000\\validation\\validation_report.md",
+        "size":  2500,
+        "sha256":  "9493F191B02ED70BEBF2F8089AF6D82E0DA5B8FE28FE14E1103307FED7B62BBF"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\artifacts.json",
+        "size":  578,
+        "sha256":  "1CF82A2D3232D45D8E0831AA40956C3A5EF8B8EB99E5973BA6FCB123BCD81C69"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\deposited.stl",
+        "size":  2321284,
+        "sha256":  "4E4ACC2CE9444BD590CD2EA06F12FBD44C7C74078CEC5028D9B2461F5DD9CC65"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\episode.json",
+        "size":  33796,
+        "sha256":  "C998FB0A12E34C1268CCE3433B8278565ACDC88B133562E19F436E6DC52B7788"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\layer_trace.json",
+        "size":  26345,
+        "sha256":  "8293A141621683118E8D0CFF32C337CFE8F9FD8198B901DDBAE45060C2E772CA"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\input\\config.yaml",
+        "size":  1760,
+        "sha256":  "0C6111E4657F0CC4FC3BA0722AB18CCB78A533E7C233E08B185673C8D846C7E7"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\input\\placement.json",
+        "size":  465,
+        "sha256":  "628E5830F79E09B4757FEC2F552BA8E5557C2904E053C3D39480012A190809DF"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\input\\target.stl",
+        "size":  224884,
+        "sha256":  "1E73E96A2E5382CEE794B90E03E9F4EC6DBEBC51ED3E0C15259A4E43AC2D7409"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\input\\trajectory.csv",
+        "size":  568664,
+        "sha256":  "0248FD9999FFBECE0C53B8750086B85D2C299EA7EE340250FA863FA352CC6F9F"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\validation\\layer_metrics.csv",
+        "size":  1505,
+        "sha256":  "C33BC996C89026C322CC69821E89F497E69FF6706DF1C963D693ABE2F45A4D63"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\validation\\robot_metrics.csv",
+        "size":  997,
+        "sha256":  "70E7B0384A9D60BE27596CD217D1E76C91924E23620312B0DB4879DE610676B5"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\validation\\run.log",
+        "size":  1767,
+        "sha256":  "425DECB2C2EF7A3E04F2198E95772D87DD2311A71EAF817C2B98B3364F03BDF5"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\validation\\summary.json",
+        "size":  3997,
+        "sha256":  "86579F0B1E0212A615CC2E45E45875CB52BD4966B12433F76B8A104FC9A5C81F"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\validation\\validation_inputs.json",
+        "size":  3150,
+        "sha256":  "87ED8BB0CD9D247DC53D439E95CC470D74F7E7A14C543D1568651F18C5550A0F"
+    },
+    {
+        "path":  "stl_files\\job_01\\episode_000\\validation\\validation_report.md",
+        "size":  2504,
+        "sha256":  "0DD276315F33F5D9942AAADED73E041BB8CD40A031A551D72C706FEDF02AA205"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\artifacts.json",
+        "size":  579,
+        "sha256":  "64BEE79EEF05896F558082CF41FF569EEF91B05573145FA70AC0EDE9635A35C2"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\deposited.stl",
+        "size":  323884,
+        "sha256":  "324748CE0D6595DCEBD0AF7F8FEE4C4B9E20FD36739F7E6234B7F6B0DDE22931"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\episode.json",
+        "size":  26412,
+        "sha256":  "ED061E013EC4FC757C728F0EB3DCCB89F73FC86686AE062A71CAF31C9A105D3F"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\layer_trace.json",
+        "size":  19434,
+        "sha256":  "CF472717539BCD79B14583818F9715E8E54E7F81C58C5F1C4CC5E4946B160187"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\input\\config.yaml",
+        "size":  1760,
+        "sha256":  "0C6111E4657F0CC4FC3BA0722AB18CCB78A533E7C233E08B185673C8D846C7E7"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\input\\placement.json",
+        "size":  463,
+        "sha256":  "876E9A85975540DCA1E4480A65788CBBA88AB8C4D72795FEC3B50998836EF77F"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\input\\target.stl",
+        "size":  46484,
+        "sha256":  "BEE437B4C0943A1C9E40CBE3277FB5980EF4DA10A1A3BBA983733410302E46CB"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\input\\trajectory.csv",
+        "size":  267985,
+        "sha256":  "DDFB6A7CB2E9E84637E9E80A51BF3EED14EB00C190C68FBF0C80D8A6CC27D4A7"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\validation\\layer_metrics.csv",
+        "size":  1381,
+        "sha256":  "7D5F2D891C710F8242D8953471CF6FCB0942F40F8BF1946F76C29035AB436DCF"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\validation\\robot_metrics.csv",
+        "size":  1002,
+        "sha256":  "91AA09FF1AC9FC305887C2CF5187F5790D3CD5D688EF01E7995CB8F1ADFC93E2"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\validation\\run.log",
+        "size":  1764,
+        "sha256":  "0F09C998EF5E4022E01FB59150E9FC08269707D6BB08A73C50FF7A3DD9352036"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\validation\\summary.json",
+        "size":  4009,
+        "sha256":  "F5DB9FDD4CF37FFA54DC63C5587532112AF568F67004B49F41BBC6814D7DACE1"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\validation\\validation_inputs.json",
+        "size":  3149,
+        "sha256":  "062D5698B8C9BB9DBE9E6D087789F9C78A57F01D8E6C4E9BCA92F6D0F96D59B9"
+    },
+    {
+        "path":  "stl_files\\job_02\\episode_000\\validation\\validation_report.md",
+        "size":  2500,
+        "sha256":  "3F923CFEAC8C6F838ABBF0FEB8DB51F399045818C4B2269D5C82BCF4CB19CB96"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\artifacts.json",
+        "size":  578,
+        "sha256":  "53044F5BDEBB48D13B65B8D64B49070C4A672B76B379BDA830C6BA2825011676"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\deposited.stl",
+        "size":  7996884,
+        "sha256":  "F2CBBDAD489E8F52C95D01A6F550487B70B3704CA047B3DBA22EB5617AEEBE74"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\episode.json",
+        "size":  180065,
+        "sha256":  "9561D0203A4243644BA1620583B0089DE91320E7638C3F49AFC2D9081E29653E"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\layer_trace.json",
+        "size":  162455,
+        "sha256":  "D46C1536EB933D14BD91D684599189F397B4209C522C3A17D7AE0767F4B396AB"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\input\\config.yaml",
+        "size":  1760,
+        "sha256":  "0C6111E4657F0CC4FC3BA0722AB18CCB78A533E7C233E08B185673C8D846C7E7"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\input\\placement.json",
+        "size":  466,
+        "sha256":  "32335B58327E9695B54B6CEB183AACE2328F148D7AFF74CDC4AEDCC4FF404E4F"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\input\\target.stl",
+        "size":  120484,
+        "sha256":  "F1E24AE0215796ACC16CFC93D918E1269044128D936083638DBB7777DEB40D24"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\input\\trajectory.csv",
+        "size":  2127088,
+        "sha256":  "504EE8E4579F1AB10069FC2393F6661FC9D73388D7FB6110E01573789CC923A4"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\validation\\layer_metrics.csv",
+        "size":  8160,
+        "sha256":  "858CC7D5E1DF5465E89183D737672A33F880D0A523D49CD32B5F015F98F3A47F"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\validation\\robot_metrics.csv",
+        "size":  977,
+        "sha256":  "6A959351B549228F35BFB6E33824EA16597DB06DC5E83BE7847F57DEBFA64B7F"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\validation\\run.log",
+        "size":  1792,
+        "sha256":  "54110FA238E8FBE9B780911B7F625409F121E9AFD5247C3F85F74A7840DE93CD"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\validation\\summary.json",
+        "size":  3994,
+        "sha256":  "5E2B15B9CA413D55115A0D9BE466B1FFB8E3419867EA11CD59E53BD7CB572CEA"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\validation\\validation_inputs.json",
+        "size":  3151,
+        "sha256":  "1551655FB5DA913CC4A3176C149AF8046D5BAC4F47FA533CBB95B1EE9A395117"
+    },
+    {
+        "path":  "stl_files\\job_03\\episode_000\\validation\\validation_report.md",
+        "size":  2522,
+        "sha256":  "31FE3F6A9E14EB9B44DBF4850446F1A482858B08CBDC74CC514C99875A3093D3"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\artifacts.json",
+        "size":  580,
+        "sha256":  "1D2D1DD8EFB0BD8A8FF4A78F1D6F69A6E363F6ACED73780128BD5A3DA234A2F7"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\deposited.stl",
+        "size":  49986484,
+        "sha256":  "0D10DC13C61B033463B24E989BDFB26FFE5A38B69534F4C5088B4441200171E6"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\episode.json",
+        "size":  1241563,
+        "sha256":  "710C21E6E8B62E19E4BE48128FC737AC49C9AFAE0DF97B16AEBF57AEDA8E1967"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\layer_trace.json",
+        "size":  1151317,
+        "sha256":  "81763D5A6DFB95863E7F9DFC786D14B007D3656748790F40B0B2FC9E93CB7C8D"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\input\\config.yaml",
+        "size":  1760,
+        "sha256":  "0C6111E4657F0CC4FC3BA0722AB18CCB78A533E7C233E08B185673C8D846C7E7"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\input\\placement.json",
+        "size":  464,
+        "sha256":  "4748CD28694B776AFE594E65114D641B2B34D0DAE96DC2755F267045A17E5F6F"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\input\\target.stl",
+        "size":  5414484,
+        "sha256":  "F26686D210E152156DCA5F61AEF577ADAC5CDF514CA95EB251EDB02F704B4B04"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\input\\trajectory.csv",
+        "size":  17519615,
+        "sha256":  "156AE962AB62261AD3C18C475999929BD16D8BF72AB42A9D20FB5F616D2AC622"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\validation\\layer_metrics.csv",
+        "size":  58362,
+        "sha256":  "85ECA476C03A712776FF559B46623AB1F27B1F19566F9CF1222812CFF37DA9F1"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\validation\\robot_metrics.csv",
+        "size":  998,
+        "sha256":  "457C5D9DF8577A8B9DB8EE823DCD10EFBFCF5D1B69E0F2C254BF291350A78834"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\validation\\run.log",
+        "size":  1813,
+        "sha256":  "BFF79463CF6EAD98727EF46D0F8AACA8D32592FB7546A098378E5A36401DFF40"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\validation\\summary.json",
+        "size":  4024,
+        "sha256":  "066BC087A6A6FF6F9E7CC5DB1C9452960DA2E6176C63682D1B1CA8015EE23A3B"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\validation\\validation_inputs.json",
+        "size":  3153,
+        "sha256":  "08CBB29A7EF52EDEDB2F8FDB1ECCA139D78E32EA4C8CFB39F677876077A1E7FB"
+    },
+    {
+        "path":  "stl_files\\job_04\\episode_000\\validation\\validation_report.md",
+        "size":  2532,
+        "sha256":  "854F468C5D35CAEA5718E13439D67D01756E5A4F9FDE5261B5CE255E1114E975"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\artifacts.json",
+        "size":  579,
+        "sha256":  "03AC59AC8FE64F9C645F147E767F57A611D8DBFB0FAD9861E3EBC3A014FD053F"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\deposited.stl",
+        "size":  513684,
+        "sha256":  "396A70D24D249A4162CD8AC2D8E7DFFA8F8CA539F59B17F2DAD07CB427E3EF3B"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\episode.json",
+        "size":  179200,
+        "sha256":  "29C16F961A96F992FCFC18589D2F7572B9F35F24FA6CEAFEE33C9896AF921EFE"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\layer_trace.json",
+        "size":  161330,
+        "sha256":  "23DAE1C2CC3619C147CAC109F1238C7CE6957C4AC230E200C106DD9F164EBA4B"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\input\\config.yaml",
+        "size":  1760,
+        "sha256":  "0C6111E4657F0CC4FC3BA0722AB18CCB78A533E7C233E08B185673C8D846C7E7"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\input\\placement.json",
+        "size":  465,
+        "sha256":  "25623AB26F1115A3231A2644F2F4ADC68C2765F6E88245154E6A9F594568073D"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\input\\target.stl",
+        "size":  1084,
+        "sha256":  "26073E5581BA2DD46BA7CF78A2E18BA10474943D069424160C7DA1F09FFB3CA3"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\input\\trajectory.csv",
+        "size":  205562,
+        "sha256":  "70E356419B761F8D3EDBC03591FB1CB39340F215911BA68A5CA1CE3CDCBB9D7F"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\validation\\layer_metrics.csv",
+        "size":  10138,
+        "sha256":  "6FB56137DB35931DC77250D34636D1B40886408B0011A431037F504B55D868BC"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\validation\\robot_metrics.csv",
+        "size":  995,
+        "sha256":  "475FBCACDA3138F7A332FBE4350A20B65EC7111CF9152C82DDB32682A863DDB4"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\validation\\run.log",
+        "size":  1770,
+        "sha256":  "65711675B7998FD8B6B75873F153817EF308E2B0BA18FC2E13AB3C9626B9732B"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\validation\\summary.json",
+        "size":  4007,
+        "sha256":  "BFA21831FAB35AF72460E833F967C1B58779821D72992286F4B74FF74A0C9704"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\validation\\validation_inputs.json",
+        "size":  3148,
+        "sha256":  "24C111B03AF3713E094E5B09F0EDA9DDB9B03E54648A76050219EEF48A1394C2"
+    },
+    {
+        "path":  "stl_files\\job_05\\episode_000\\validation\\validation_report.md",
+        "size":  2505,
+        "sha256":  "D5E1D8CCF1E629734C610ED93BBC2269D866D4732DE40C6AA67EF60479229956"
+    },
+    {
+        "path":  "validation_data\\evaluation.json",
+        "size":  12400,
+        "sha256":  "7A7F1E153831B55D26005200708A8B9B425B7426D6FC4EB2990255FC5BA3F1FD"
+    },
+    {
+        "path":  "validation_data\\index.html",
+        "size":  2350,
+        "sha256":  "37BC552DAC483F036685363A9AF022F914C6104BF60CB7C42C0DC4994A7DAFF2"
+    },
+    {
+        "path":  "validation_data\\model_snapshot.pair.json",
+        "size":  310,
+        "sha256":  "96C7C817EAA2B2A401A8110D03A03A70349D891661D071447D96B9EC3EE620CB"
+    },
+    {
+        "path":  "validation_data\\model_snapshot.zip",
+        "size":  639514,
+        "sha256":  "51256CF5BE6260A0CC40D4F3BEE890C575E406C1819A68DD28D4FAE6DBA3B4A0"
+    },
+    {
+        "path":  "validation_data\\placement_snapshot.zip",
+        "size":  200279,
+        "sha256":  "B3E09F74BA1757453C3D4FCCC50D439FFB1E80C89B06AB847DEAEDBF1706798C"
+    },
+    {
+        "path":  "validation_data\\gantt\\index.html",
+        "size":  5034104,
+        "sha256":  "55F06245BEC81730FFCEB464BBEAD62CDC3B94153C11039D35713927975018DB"
+    },
+    {
+        "path":  "validation_data\\gantt\\job_00_gantt.html",
+        "size":  4869539,
+        "sha256":  "6692AEC0955B727970A0D81A69308D5CC09ED2A10DC7C148C0303291A9262EFF"
+    },
+    {
+        "path":  "validation_data\\gantt\\job_01_gantt.html",
+        "size":  4885183,
+        "sha256":  "FF22961E6E5998E38FA08DD1981EA3D7B0611AF5BDF0EC710904B551924F4EC0"
+    },
+    {
+        "path":  "validation_data\\gantt\\job_02_gantt.html",
+        "size":  4872371,
+        "sha256":  "1E5A97FA7BC28A47F05C07B68FE866734DBFAFE35309A99D79202E8BC8C87CB3"
+    },
+    {
+        "path":  "validation_data\\gantt\\job_03_gantt.html",
+        "size":  4892390,
+        "sha256":  "A7000714E51F5B0891554F1514B3E5193EF52DC0DA899F0784C26E198B3D04E7"
+    },
+    {
+        "path":  "validation_data\\gantt\\job_04_gantt.html",
+        "size":  4881864,
+        "sha256":  "607A4D54319112B25F5893F6FC86EF2EE3A468AE6AA3D6FE1FB187E1D5BFE633"
+    },
+    {
+        "path":  "validation_data\\gantt\\job_05_gantt.html",
+        "size":  4907522,
+        "sha256":  "5383B59D31CE8DCD06F24F8D5626DFC82A84D6308175D38BEF6763C8988B6949"
+    },
+    {
+        "path":  "validation_data\\gantt_images\\job_00_episode_000_input_gantt.svg",
+        "size":  3615,
+        "sha256":  "246A234E9775F6EEAFCA52E8E7481772795E9594FB8FC1124CDB7794E3DFB58E"
+    },
+    {
+        "path":  "validation_data\\gantt_images\\job_01_episode_000_input_gantt.svg",
+        "size":  10518,
+        "sha256":  "D44C7A2E51ADF7055606E2D38D95ED7193C1EA629060683D6264B66F4AE51D3D"
+    },
+    {
+        "path":  "validation_data\\gantt_images\\job_02_episode_000_input_gantt.svg",
+        "size":  4901,
+        "sha256":  "9D97F3F63A8706281BD18508C5177E4E729E0CB8C593AF14A780798F3F90D493"
+    },
+    {
+        "path":  "validation_data\\gantt_images\\job_03_episode_000_input_gantt.svg",
+        "size":  13652,
+        "sha256":  "E02904D7428548F5B7581BD26B0D55B471A92B47947E660C21509CACA578C44F"
+    },
+    {
+        "path":  "validation_data\\gantt_images\\job_04_episode_000_input_gantt.svg",
+        "size":  9057,
+        "sha256":  "A503B6192EB9A3EF9B001309C111298CEE25F498F3C6537C596D8F34A881156E"
+    },
+    {
+        "path":  "validation_data\\gantt_images\\job_05_episode_000_input_gantt.svg",
+        "size":  20272,
+        "sha256":  "2435CEA3FA7ED18395220D2171B113C72A99106EA028E327E1CBADB0195B1023"
+    },
+    {
+        "path":  "validation_data\\images\\job_00_episode_000_input_target.svg",
+        "size":  10106,
+        "sha256":  "07C2BF1A0093F8E11B3BD7E4B3EF3B3BB4CE4AD9750C332A056B7963D13CB5D1"
+    },
+    {
+        "path":  "validation_data\\images\\job_01_episode_000_input_target.svg",
+        "size":  1174,
+        "sha256":  "C5F936B60EADFA0C734A212DAB95288675DD0BE08451E2B7E2A2B0B95D6DB635"
+    },
+    {
+        "path":  "validation_data\\images\\job_02_episode_000_input_target.svg",
+        "size":  870,
+        "sha256":  "F93C7858537D950655482698CE0F9F2A743C5B08E6829D0F2D2E3DD9F92DAC8D"
+    },
+    {
+        "path":  "validation_data\\images\\job_03_episode_000_input_target.svg",
+        "size":  1782,
+        "sha256":  "39D66922EB3173AFC960A621F6163A3F39FDC332FF45749F8377C640C36377AB"
+    },
+    {
+        "path":  "validation_data\\images\\job_04_episode_000_input_target.svg",
+        "size":  3596,
+        "sha256":  "C10DDE95B2E66FF6843F545389415F0C0FA930B2C07637E312B9E95F9C371456"
+    },
+    {
+        "path":  "validation_data\\images\\job_05_episode_000_input_target.svg",
+        "size":  116644,
+        "sha256":  "EAA4CAFF951BAA70D1F27DE44D045ED2587394870A810E6904CF86BFA5A7F3C6"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\artifacts.json",
+        "size":  580,
+        "sha256":  "2A2050992EFC071E4B61CA2A6BFBB5EA81D4EECB610A33410079E34448A2B45C"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\deposited.stl",
+        "size":  30884,
+        "sha256":  "DAB139AE0A4156A8B9DFC78DC7E3F48762847535D0568D2884D1DC78E7BEAEEE"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\episode.json",
+        "size":  8875,
+        "sha256":  "372E3BDBBB04DAF7E3891B9D1AA937ECEAECF4DC7263A97E37AF79D5607C8072"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\layer_trace.json",
+        "size":  3167,
+        "sha256":  "ABB700CF815EC0310E2EE7F2C3981BDA682510A1EB75B12FB2FC285130CD843B"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\input\\config.yaml",
+        "size":  1572,
+        "sha256":  "93293BE7FA017DF46FFD7913B4D48A54EBDC8A8B1C1EB072A2A001F4EE43165E"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\input\\placement.json",
+        "size":  476,
+        "sha256":  "57D2C1510C311CF75658608188B38B4003FDC073EC4B9BAAE41F31F47288A420"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\input\\target.stl",
+        "size":  6684,
+        "sha256":  "8481A3F963C06D93A8BAB4972318DBE2C3F5D1D836D6969CE5B4C6C81008E69C"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\input\\trajectory.csv",
+        "size":  2788,
+        "sha256":  "B67483B3052D85C2B01CD5D358EF8125E0DDDC02D217CA1672736FF1726CAB57"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\validation\\layer_metrics.csv",
+        "size":  334,
+        "sha256":  "11460B74D84623729BFE83EE63280C73E629E5ABFD5AD7B0E640649696ECE712"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\validation\\robot_metrics.csv",
+        "size":  846,
+        "sha256":  "2D6C60550E29CD85B0FF27846439B0ED1CFE425426CD9407C607DDAF73394FC0"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\validation\\run.log",
+        "size":  1715,
+        "sha256":  "6B5BC924E6D4871F9C9F8B934444CC9B950515F06A86565630A520C675C564CD"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\validation\\summary.json",
+        "size":  3948,
+        "sha256":  "ED5A8560EC98D8116C518A103EFA6FC0D19B5B15943AD44BA47566A258B2E4B9"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\validation\\validation_inputs.json",
+        "size":  3132,
+        "sha256":  "5433BA842469E2C995183B5DA0DEE6CAFB49CEFC6680035902EE64B2BA597925"
+    },
+    {
+        "path":  "validation_data\\job_00\\episode_000\\validation\\validation_report.md",
+        "size":  2483,
+        "sha256":  "87D8762F185E0C75211796E46FE97B91B9502712377EE12207E8B090454B0EB8"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\artifacts.json",
+        "size":  579,
+        "sha256":  "96A69AFC6F83232F869D8C6711CC21A185EC1A5FE510F6437B6A6B0C0E2EA273"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\deposited.stl",
+        "size":  32084,
+        "sha256":  "54E40F6C833054B65E7311991194471C781FB5E1F31F1830D1DB1F73DC9EE4D6"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\episode.json",
+        "size":  12312,
+        "sha256":  "0288DC13C154C31A184D925E69B2BBB6CF43D56C7FB07E7DE31062EA42A2C9B1"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\layer_trace.json",
+        "size":  6320,
+        "sha256":  "DFBA94F60452160274A4EAC872F3C3B3C5165ED558885712C24E2D87AA8F7943"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\input\\config.yaml",
+        "size":  1572,
+        "sha256":  "93293BE7FA017DF46FFD7913B4D48A54EBDC8A8B1C1EB072A2A001F4EE43165E"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\input\\placement.json",
+        "size":  479,
+        "sha256":  "4A57A9996C6AC61F781276BD0838965EAA1CCA4D7BA8A0547C3C9A0A96C5EA55"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\input\\target.stl",
+        "size":  684,
+        "sha256":  "52F76E8A33C3DAD2EE2C933C8E5EE495989D9E9B931B9153E05F7A49C8453219"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\input\\trajectory.csv",
+        "size":  9526,
+        "sha256":  "59B8EFEC63369085A2A2D097615B44FFC162256F0E010907E1B589852D4AD178"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\validation\\layer_metrics.csv",
+        "size":  554,
+        "sha256":  "684EF7FCD1047D3D327E4679285CBDD02EA2D6C2D46B30D3C16A2066DF8BB336"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\validation\\robot_metrics.csv",
+        "size":  862,
+        "sha256":  "B242416684D9CCC0894D9838572D03B5B3E2D88953DD453A5FBB354C2D7E6506"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\validation\\run.log",
+        "size":  1732,
+        "sha256":  "0AA9FC3B67FB763370D64D3FCE687AAACC1F5F8A892696066F879946B492E3C7"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\validation\\summary.json",
+        "size":  3990,
+        "sha256":  "0ACDD23C6C600246991DD18A325405C7FA01A59C3C9EF26C7D7BE4BF451A522B"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\validation\\validation_inputs.json",
+        "size":  3131,
+        "sha256":  "BE4D7E290281AE93C36C7D6EA9B86487B79A88B6A22C953F53ABCFE86FD2605C"
+    },
+    {
+        "path":  "validation_data\\job_01\\episode_000\\validation\\validation_report.md",
+        "size":  2502,
+        "sha256":  "61A678DA9690F7D93533D956167CA49D65AE682D4682BE63E829841BCD4AE593"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\artifacts.json",
+        "size":  579,
+        "sha256":  "29E188ADE60A50F2F20E35309C5BE6A05733A7F536BC18D9F0C7E1755688A985"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\deposited.stl",
+        "size":  29684,
+        "sha256":  "B6397158C98B4CCB9042EDE0B9E7F9BF6A973408F5A5968C2548EC39F55DECD8"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\episode.json",
+        "size":  8895,
+        "sha256":  "42D9BB86F8370C4A1379BCC9CE86EA4B9A6EDA9131A1021F10DCC0EFB6C6A1B2"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\layer_trace.json",
+        "size":  3155,
+        "sha256":  "E374241B10783FDB87B5311C6323A9B696D9D017FBD03910D5B799EEF804B191"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\input\\config.yaml",
+        "size":  1572,
+        "sha256":  "93293BE7FA017DF46FFD7913B4D48A54EBDC8A8B1C1EB072A2A001F4EE43165E"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\input\\placement.json",
+        "size":  478,
+        "sha256":  "102B84470313825CC5827BEC0943BD880EF1E82C52E99607AFD19B9F97AFEA2D"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\input\\target.stl",
+        "size":  484,
+        "sha256":  "223EC0009A4213652703AE8BB2FC41CEC61DD0B466823984953014CBB7277807"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\input\\trajectory.csv",
+        "size":  4019,
+        "sha256":  "8FD69267B96B151D6D99F11041C9DAE322B26B5A0820E0150B23646C887554E8"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\validation\\layer_metrics.csv",
+        "size":  372,
+        "sha256":  "A99FC9F7996609BBB0FB40B3452A552E89EDF663A0D875517A1C6C3A4EA5A1FA"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\validation\\robot_metrics.csv",
+        "size":  847,
+        "sha256":  "4FB97C1C10F8AD3803F8BF483B3BEF56301C018B6754EC646CCA5A56238FBB56"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\validation\\run.log",
+        "size":  1723,
+        "sha256":  "6B939FB23CF1C56A5F7F3EAE0DE193160D9A8229CD8E073D73E755CE024BD8AE"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\validation\\summary.json",
+        "size":  3979,
+        "sha256":  "223947455AF801C63F1E8489B5241B8F11CC0E37F856B9519A0D928FA208B923"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\validation\\validation_inputs.json",
+        "size":  3131,
+        "sha256":  "32057ED2277E1E62531599358A413B7F4D74DFFBB6FD5C179A94C8F2B8CD259B"
+    },
+    {
+        "path":  "validation_data\\job_02\\episode_000\\validation\\validation_report.md",
+        "size":  2495,
+        "sha256":  "376AF0C8BBD8695B2066BA3C282BA38402A6CD57E8C4C8B532DE168A2ED4DAD8"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\artifacts.json",
+        "size":  579,
+        "sha256":  "877C439E991FCBBB6267DA39F845A420CA2DDCFAA3076B7868BFE2012F0E46F9"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\deposited.stl",
+        "size":  46484,
+        "sha256":  "7E6EBA8347A3A67D47663B591A91A5EDF6825E13D4C33D30AA0C17CC4CB67AD5"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\episode.json",
+        "size":  12291,
+        "sha256":  "AACEF0F9E0DF493F64EC5EC0901C17C759A669A0BD5728D38AAB9B0F0703EBEB"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\layer_trace.json",
+        "size":  6319,
+        "sha256":  "C8D706C20DF8CBBE1354157BC1008467E71A7DB1076E392EC8B51CE4D5A9387E"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\input\\config.yaml",
+        "size":  1572,
+        "sha256":  "93293BE7FA017DF46FFD7913B4D48A54EBDC8A8B1C1EB072A2A001F4EE43165E"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\input\\placement.json",
+        "size":  476,
+        "sha256":  "09BB39B62E166A7343D92E8A0728DB293166FDCC7F22E61D7A7407C911F7BA3D"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\input\\target.stl",
+        "size":  1084,
+        "sha256":  "0407F7A7BB0BFB80882C4AF1817615D094C4FD59081FE909B24AEC168DB03592"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\input\\trajectory.csv",
+        "size":  12727,
+        "sha256":  "105EF691DD69CBBAA8BA1932F2F91C020717614C36EA6112207B96DEA5F7F0F4"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\validation\\layer_metrics.csv",
+        "size":  555,
+        "sha256":  "789E1D4C25F3BE0E552274D428D1A852D355E02CC4BA9D586B07BC7F23F22903"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\validation\\robot_metrics.csv",
+        "size":  851,
+        "sha256":  "0580C20B1B8848BB4E046E096D10FC58F18D65761D0A4D2CAFC137084F2A0645"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\validation\\run.log",
+        "size":  1733,
+        "sha256":  "E1A1A7158D5066CC31374F0E63577E882272582065F2AEA5ADE527BA60003176"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\validation\\summary.json",
+        "size":  3969,
+        "sha256":  "FBB64BB5D506970E5EBE1F488918295BD7C3118AE842F717150FC6277B98D17D"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\validation\\validation_inputs.json",
+        "size":  3133,
+        "sha256":  "0A586AED959DF130773B37E3856D0368623580E4762234921CF43F23A0087DAB"
+    },
+    {
+        "path":  "validation_data\\job_03\\episode_000\\validation\\validation_report.md",
+        "size":  2503,
+        "sha256":  "924A619E40289BF016B4F593729AC5FFC33ABE072E8149400EE54262EC779657"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\artifacts.json",
+        "size":  579,
+        "sha256":  "3B4C4AAD84ABAC33ECB382DBA03C46CC10AC86A971C7E4C2B1913A0FCCAE20EB"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\deposited.stl",
+        "size":  26684,
+        "sha256":  "5DCFD1D9B2DD9A47474D098DA4D49A7957EF6140975D2B43330C6E07B997D0B0"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\episode.json",
+        "size":  9033,
+        "sha256":  "B14C2EAE571D852CFECE3B0773DB228C31AEDD5A891FD33466EB92187E9EA04B"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\layer_trace.json",
+        "size":  3244,
+        "sha256":  "2F7177D72D73A420720E570B80B20D73BC6832D0B2EFEAD8DD9B40AA0177FE40"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\input\\config.yaml",
+        "size":  1572,
+        "sha256":  "93293BE7FA017DF46FFD7913B4D48A54EBDC8A8B1C1EB072A2A001F4EE43165E"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\input\\placement.json",
+        "size":  474,
+        "sha256":  "46FB94383E80A4829FD7804D18F74874E155D739F361069F021FAD2BB5DBC04A"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\input\\target.stl",
+        "size":  2284,
+        "sha256":  "476E87DC3C01957D22B58DD706A59881620CCD68E7D8ECB22693D996B816A031"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\input\\trajectory.csv",
+        "size":  8099,
+        "sha256":  "5B85A97DECBA674C5BE6922A8AD2EF14BFF91D776A8AF318A3D502D1D87C0175"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\validation\\layer_metrics.csv",
+        "size":  370,
+        "sha256":  "52A06AD3B252B53A914B7430FB6FCD225926EB3AC785E3D9BC0A70BFDBAE2D56"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\validation\\robot_metrics.csv",
+        "size":  978,
+        "sha256":  "4B01333479C50D3EA5A652D05CCC75B2A7553420CC4C126D1D49EE8632D89575"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\validation\\run.log",
+        "size":  1742,
+        "sha256":  "2F8110D0003B695315D5D68BBEAC8CD22BF095B4F2BFC54DA41375C2A0F61AAB"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\validation\\summary.json",
+        "size":  4027,
+        "sha256":  "A92BB254CD5FC2366B6077AD4E3043E62144E30494F4BCC7A3841620F0920F9C"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\validation\\validation_inputs.json",
+        "size":  3132,
+        "sha256":  "F12BB17DA95EDD739AF08C989234B5B96F0596D12D25D813ADEE61876CAEA631"
+    },
+    {
+        "path":  "validation_data\\job_04\\episode_000\\validation\\validation_report.md",
+        "size":  2506,
+        "sha256":  "AC1F55085925038C1CE8BB3DE562EFBB7C303C97A80A031BCFB98C7B9CFAD017"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\artifacts.json",
+        "size":  580,
+        "sha256":  "A5CABD5F300B1C7612D0D3F7FDDBE62FA4B67C0DE4FE643EAC22819B7B04660D"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\deposited.stl",
+        "size":  91084,
+        "sha256":  "BD294CA1B53C24170959D4CB6E5CFECF4E397A2C245FCB6D558E433A695E4055"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\episode.json",
+        "size":  9041,
+        "sha256":  "CB6A603B4D99CF8CAFCBB6BA29F6D6BFD2A87FCB90B0C2507E342A071E1C1753"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\layer_trace.json",
+        "size":  3247,
+        "sha256":  "69F9CFFB1F2EE5BFBAED8EEE7733849848EA5C4C96B022A2AF89CAC1DBA151CD"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\input\\config.yaml",
+        "size":  1572,
+        "sha256":  "93293BE7FA017DF46FFD7913B4D48A54EBDC8A8B1C1EB072A2A001F4EE43165E"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\input\\placement.json",
+        "size":  471,
+        "sha256":  "0CE998FF7F117C247E7FD8180C9741CF192ECE6354696C64ED34F8240C46D1BC"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\input\\target.stl",
+        "size":  76884,
+        "sha256":  "3DCDB64F9533BCA3368461992F859DF846D3F12ABDE2EF8291603B0F8A4A6EE1"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\input\\trajectory.csv",
+        "size":  19278,
+        "sha256":  "2736B22F121EEA477630C68EC8813CDB5B1177D5A037276E384C9B782346970C"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\validation\\collision_events.csv",
+        "size":  243,
+        "sha256":  "B9577BAF7F5A4E8D77634DAD5104CF656EFD2B272E52AA3435A02033AC2858E6"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\validation\\layer_metrics.csv",
+        "size":  349,
+        "sha256":  "C20410AC668B84DC4CD7D6CDE663E55BC5DFF4C0374C858DB4658CC8A2C6A666"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\validation\\robot_metrics.csv",
+        "size":  1003,
+        "sha256":  "B24273E002A2CD1ED000FC2EB21604F18682AF8C8054D5790C1060B672966400"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\validation\\run.log",
+        "size":  1745,
+        "sha256":  "3C99A0266C295419436471590F7226A11765B51ECBA2C8A7D5B2A1B46DAA06ED"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\validation\\summary.json",
+        "size":  4031,
+        "sha256":  "7FFC00CD903888EF0AC10938AA791CE0702859DF6F204EEB4729DF61B68464E3"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\validation\\validation_inputs.json",
+        "size":  3134,
+        "sha256":  "32E831ACA33E379FCFE61F4ECABA16CB2C366AFCFD112EF62D85B39FAC4FD557"
+    },
+    {
+        "path":  "validation_data\\job_05\\episode_000\\validation\\validation_report.md",
+        "size":  2506,
+        "sha256":  "210685C4142105B961157D4B1E4058D821B35ED18F6F1AEEC4D547BF019BC0AD"
+    }
+]
