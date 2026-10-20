@@ -36,3 +36,125 @@ all_results.csv에 정확한 초 단위 수치와 체크포인트 SHA256, 원본
 - [수도코드 설명 및 설정](1.1.1e-retry1/pseudocode/algorithm.md)
 - [수도코드 이미지](1.1.1e-retry1/pseudocode/algorithm.png)
 - [텍스트 수도코드](1.1.1e-retry1/pseudocode/algorithm.txt)
+
+## ETC
+코드 기준으로 정리하면 다음과 같습니다.
+
+| 항목 | Minor1 | 1.1.1.e retry1 |
+|---|---|---|
+| 환경 버전 | `1.0.2-minor` | `1.1.1.e-retry1` |
+| 레이어 1-step | 레이어 1개 경로 생성 | 레이어 1개 경로 생성 |
+| Layer action space | `MultiDiscrete([8, 3, 4, 2, 2, 3, 6])` | `MultiDiscrete([8, 33, 33, 2, 33, 33, 2, 33, 33, 2, 6])` |
+| Layer observation shape | `(309,)` | `(305,)` |
+| 레이어 높이 | `2.0 mm` | `2.0 mm` |
+
+### Minor1 action
+
+Minor1은 레이어 경로 정책과 STL 위치 조정 정책이 분리되어 있습니다.
+
+Layer policy:
+
+```text
+[ hatch_angle,
+  hatch_spacing,
+  start_corner,
+  reverse,
+  partition_axis,
+  partition_quota,
+  robot_order ]
+```
+
+각 값의 의미는 다음과 같습니다.
+
+- `hatch_angle`: 8개 선택, 0°부터 157.5°까지 22.5° 간격
+- `hatch_spacing`: 비드 폭의 0.8배, 0.9배, 1.0배
+- `start_corner`: 네 모서리 중 시작 위치 선택
+- `reverse`: 경로 진행 방향 반전
+- `partition_axis`: X축 또는 Y축 기준 영역 분할
+- `partition_quota`: 로봇별 작업 비율 선택
+- `robot_order`: 3개 로봇의 작업 우선순위 6가지
+
+별도의 placement policy도 있습니다.
+
+```text
+Box(2,)
+```
+
+즉, STL 전체에 적용할 전역 XY 이동량 `Δx, Δy`를 연속값으로 결정합니다. 이 이동은 슬라이싱 전에 STL 전체에 적용되며 모든 레이어에 동일하게 적용됩니다.
+
+Minor1 placement observation은 다음과 같습니다.
+
+```text
+shape = (42,)
+dtype = float32
+```
+
+여기에는 STL bounds·extent·중심·부피·표면적, 작업공간 정보, 3대 로봇의 base/home/reach 정보, bead width, layer height, 이동 속도와 적층 속도가 포함됩니다.
+
+Minor1 Layer observation `(309,)`에는 다음 정보가 포함됩니다.
+
+- 현재 레이어 인덱스와 전체 레이어 수
+- 현재 IoU와 직전 레이어 IoU
+- 현재 makespan과 직전 레이어 소요시간
+- 로봇 3대의 이전 작업량
+- 현재 레이어의 Z 위치, bounds, 면적, 둘레
+- 16×16 레이어 raster, 총 256개 값
+- 로봇별 base, home, reach radius, arm envelope, TCP radius
+- bead width, layer height, travel/deposition speed
+- collision clearance
+- validator의 coverage, overfill, IoU 관련 기준값
+
+### 1.1.1.e retry1 action
+
+1.1.1.e에서는 action을 더 세밀하게 만들었습니다.
+
+```text
+[ hatch_angle,
+  R1_start_x, R1_start_y, R1_direction,
+  R2_start_x, R2_start_y, R2_direction,
+  R3_start_x, R3_start_y, R3_direction,
+  layer_priority ]
+```
+
+구체적으로는 다음과 같습니다.
+
+- `hatch_angle`: 8개, 22.5° 간격
+- 각 로봇 시작 X/Y: 각각 33단계 grid
+- 각 로봇 방향: CW 또는 CCW
+- `layer_priority`: 3개 로봇 우선순위 6가지
+
+따라서 action 차원은 총 11개이고:
+
+```text
+MultiDiscrete([8, 33, 33, 2, 33, 33, 2, 33, 33, 2, 6])
+```
+
+입니다.
+
+1.1.1.e에는 Minor1처럼 학습되는 별도 placement action이 없습니다. 대신 학습 전에 `positioning.py`가 STL 내부 샘플 점을 XY로 투영하고, 세 로봇의 점유 비율이 비슷해지도록 하나의 전역 XY 이동을 결정합니다. 그 이동을 STL 전체에 적용한 후 슬라이싱합니다.
+
+1.1.1.e observation `(305,)`에는 다음이 포함됩니다.
+
+- 현재 레이어 인덱스
+- 현재 makespan
+- 직전 레이어 소요시간
+- 로봇 3대의 직전 작업량
+- 현재 레이어의 Z, bounds, 면적, 둘레
+- 로봇별 소유 영역 비율
+- 세 로봇 공통 도달 영역 비율
+- Robot 2·3 공통 도달 영역 비율
+- 16×16 raster 256개
+- 로봇별 base/home/reach/arm/TCP 정보
+- bead width, layer height, deposition speed, travel speed
+
+### 레이어 분할 간격
+
+두 버전 모두 설정 파일에서:
+
+```yaml
+layer_height_mm: 2.0
+```
+
+으로 설정되어 있습니다.
+
+따라서 STL은 **Z축 방향으로 2.0 mm 간격의 레이어**로 나뉩니다. 각 레이어의 경로 생성이 PPO 환경의 1 step이며, 한 레이어가 끝나면 모든 로봇이 barrier를 거쳐 다음 레이어로 넘어갑니다.
