@@ -1,7 +1,0 @@
-{
-  "purpose": "held-out multi-robot priority validation; not used for PPO rollouts",
-  "generator": "tools/create_priority_validation.py",
-  "name": "07_priority_ring",
-  "source": "procedural watertight mesh",
-  "version": "1.1.1"
-}

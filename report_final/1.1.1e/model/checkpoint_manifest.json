@@ -1,6 +1,0 @@
-{
-  "evaluated_checkpoint": "final_model.zip",
-  "sha256": "be54826832deb980b76b535907401a4d3104634f9d7e1cce8c49369a66d7b232",
-  "timesteps": 2560,
-  "other_checkpoint_note": "best_model.zip is validation-best at step 2048, not used in report"
-}
